@@ -1,0 +1,39 @@
+%flexboxRow{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+%botones{
+        border-radius: 20px;
+        border:1px solid #dcdcdc;
+        cursor:pointer;
+        color:white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:20px;
+        font-weight:bold;
+        padding:8px 26px;
+        text-decoration:none;
+}
+
+
+/*Mixins*/
+@mixin botones ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    
+}
+
+
+@mixin flexbox ($direction, $justify, $wrap) {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: center;
+    -ms-flex-direction: $direction;
+
+}
+
+
+

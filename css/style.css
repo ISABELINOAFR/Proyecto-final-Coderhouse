@@ -1,0 +1,776 @@
+*{
+padding: 0;
+margin: 0;
+}
+p{
+margin-bottom: 0;
+}
+body{
+background: black;
+}
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-width: 1px;
+    
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: top 10px;
+    padding-bottom: 3%;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    padding-top: 4%;
+    
+}
+footer{
+    background-image: linear-gradient(to top, rgb(155, 119, 51), black);
+}
+
+
+
+/* NAV LOGO */
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none !important;
+
+}
+.laparrilla{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none !important;
+}
+.titulo{
+    animation-duration: 2s;
+    animation-name: slidein;
+    text-decoration: none !important;
+}
+
+
+    @keyframes slidein {
+    from {
+    margin-left: 60%;
+    width: 150%
+    }
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+.logo{
+    
+width:65%;
+margin-left:20%;
+text-decoration: none !important;
+}
+nav ul li{  
+    font-family: 'Open Sans', sans-serif;
+     font-size: 25px;
+}
+h1{
+color: white;
+text-align: center;
+}
+h2{
+    text-align:center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    margin-top: 0%;
+
+
+}
+h3{
+color: white;
+font-family: 'Open Sans', sans-serif !important;
+
+}
+
+
+/* Menu*/
+nav{
+background-color: black;
+padding: 5px;
+
+
+
+
+/* flex box menu*/
+}
+.listasMenu{
+display:flex;
+justify-content:space-evenly ;
+width: 66%;
+margin-left: 17%;
+flex-wrap: wrap;
+text-decoration: none !important;
+
+}
+.listasMenu li {
+display: inline;
+margin: 0 2.5%;
+text-decoration: none !important;
+
+}  
+.prodUctos{
+position: relative;
+text-decoration: none !important;
+
+}
+.subMenu{
+display: none;
+position: absolute;
+right: 0;
+list-style: none;
+margin: 5;
+padding: 10px;
+color: rgb(131, 111, 80);
+background-color:rgb(24, 23, 21);
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+
+
+}
+.subMenu li{
+color: burlywood;
+display: block;
+margin: 10px 0;
+
+
+}
+
+.linkActive{
+color:white;
+}
+
+.prodUctos:hover .subMenu{
+display: block !important;
+
+}
+
+a.linkActive:hover {
+color: rgb(131, 111, 80);
+
+}
+
+
+/* IMAGENES CENTRALES CARROUSEL*/
+
+.imagenCentral{
+text-align: center;
+size: 60%;
+}
+
+
+
+
+/* MENU BOTON ONLINE */
+
+.myBotton{
+border-radius: 20px;
+border:1px solid #dcdcdc;
+cursor:pointer;
+color:white;
+font-family: 'Open Sans', sans-serif !important;
+font-size:20px;
+font-weight:bold;
+padding:8px 26px;
+text-decoration:none;
+
+
+}
+a.myBotton:hover {
+color: rgb(131, 111, 80);
+}
+.textoCentral{
+text-align: center;
+color: white;
+font-family: 'Open Sans', sans-serif !important;
+padding-left: 0%;
+font-size: 20px;
+
+}
+
+
+
+/* REDES SOCIALES*/
+.socialMedia{
+padding-bottom: 10px;
+background-color: white;
+text-align: center;
+font-family: 'Open Sans', sans-serif !important;
+
+}
+section h1{
+    color: black;
+}
+.socialMediaIcono{
+text-align: center;
+font-size: 50px;
+
+}
+.fotosInstagram{
+display: grid;
+width: 80%;
+grid-template-areas: "uno dos";
+grid-template-columns: 2;
+margin-left: 10%;
+
+
+
+}
+.instaUno{
+padding: 50px;
+
+}
+.instaDos{
+padding: 50px;
+
+
+}
+.contenedor{
+position: relative;
+display: inline-block;
+text-align: center;
+margin-left: 130px;
+margin-top: 200px;
+
+}
+
+/* COMENTARIOS*/
+.bannerComentarios{
+
+    background-color: grey;
+    padding: 1rem;
+    height:15rem;
+}
+/* otro ejemplo flexbox con textos*/
+.comentariosClientes{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-areas:
+    "uno dos tres ";
+    grid-template-rows:1;
+    grid-template-columns:1;
+    grid-column-gap:100px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+.caja1{
+    grid-area: uno;
+    color: white;
+    background-color: rgb(71, 55, 25);
+    padding: 20px;
+}
+.caja2{
+    grid-area: dos;
+    color: white;
+    background-color: rgb(71, 55, 25);
+    padding: 20px;
+}
+.caja3{
+    grid-area: tres;
+    color: white;
+    background-color: rgb(71, 55, 25);
+    padding: 20px;
+}
+h2{
+    text-align:center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    margin-top: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Reserva de Mesa*/
+.reservaImagen{
+    background-image: url(img/mesa\.jpg);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 23%;
+    opacity:0.5;
+    height: 500px;
+
+}
+.reservaForm{
+    padding-left: 25%;
+    padding-top: 4%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+.rectanguloDerecha{
+    color: grey;
+}
+
+
+
+
+/* EVENTOS*/
+.tablas{
+color: white;
+width:50%;
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+border: 1px solid white;
+
+}
+
+.textoShow{
+color: white;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif ;
+text-align:center;
+list-style: none;
+}
+.eventoTexto{
+color: white;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+line-height: 35px;
+font-size: 20px;
+}
+.eventoVideos{
+text-align: center;
+}
+
+
+
+
+
+/* MENU RESTAURANTE*/
+
+.sectionMenu{
+column-count: 3;
+text-align:justify center;
+margin:0 15% 0 12%;
+font-size: 17px;
+
+
+}
+.galeria{
+    text-align: center;
+    
+
+}
+.centrarGaleriatexto{
+    margin-left: -7%;
+    font-size: 30px;
+}
+.row{
+    column-count: 2;
+    column-gap: 5px;
+    padding-left: 7%;
+    padding-right: 13%;
+}
+.menuTitulos{
+margin-left: 18%;
+}
+.listaMenu{
+padding-left: 25%;
+color:white;
+font-family: 'Open Sans', sans-serif;
+word-spacing: 4px;
+}
+.fa-whatsapp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba ( 0,0,0,.3);
+    z-index: 100;
+    
+
+}
+
+
+
+
+/* FORMULARIO */
+
+.formularioContacto div{
+display: flex;
+align-content: center;
+justify-content:space-between;
+padding-left: 20%;
+
+
+}
+
+.contenedor{
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 130px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+/* ejemplo box modeling*/
+
+.cajablanca{
+background-color: white;
+padding:30px;
+width: 150px;
+height: 30px;
+position: fixed;
+
+/* entiendo que en este ejemplo podria haber usado en el menu para
+ que quede estatico al mover la barra, pero como la mia se mueve no lo utilice*/
+}
+.cajaroja{
+    background-color: red;
+    padding: 30px;
+    width: 150px;
+height: 150px;
+
+}
+.cajaverde{
+background-color: green;
+padding: 30px;
+width: 150px;
+height: 150px;
+}
+
+
+/* UBICACION Y CONTACTO*/
+
+.cajaImagen{
+font-family: 'Open Sans', sans-serif !important;
+background-image: url(img/imagen\ 1.jpg);
+width: 300px;
+background-size: 100%;
+background-repeat:no-repeat ;
+text-align: center;
+padding-top: 50px;
+opacity: 0.6;
+
+
+
+
+}
+.flex{
+    padding-top: 50px;
+    display: flex;
+    border: 0;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+.visitanos{
+
+text-align: center ;
+font-family: 'Open Sans', sans-serif !important;
+color: white;
+width: 300px;
+height: 100%;
+padding-top:4%;
+}
+.map{
+    padding-top:0 !important;
+    }
+    
+
+    /* GRIDS POR AREAS PARA MENU PESCADOS*/
+
+.menuPescados{
+    width: 30%;
+    margin-left: 18%;
+    display: grid;
+    grid-template-areas:
+    "uno dos tres ";
+    grid-template-rows:1;
+    grid-template-columns:1;
+    grid-column-gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+
+
+}
+.cajaPescado1{
+    grid-area: uno;
+    
+
+}
+.cajaPescado2{
+    grid-area: dos;
+    color: white;
+}
+.cajaPescado3{
+    grid-area: tres;
+    color: white;
+}
+
+/* GRIDS POR AREAS PARA MENU POSTRES*/
+
+.menuPostres{
+    width: 20%;
+    margin-left: 18%;
+    display: grid;
+    grid-template-areas:
+    "uno dos tres ";
+    grid-template-rows:1;
+    grid-template-columns: 1;
+    grid-column-gap: 45px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.postre1{
+    grid-area: uno;
+    color: white;
+    
+}
+.postre2{
+    grid-area: dos;
+    color: white;
+}
+.postre3{
+    grid-area: tres;
+    color: white;
+}
+
+@media only screen and (max-width:480px) {
+
+    tablas {
+        color: white;
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        font-size: 5rem;
+        border: 1% solid white;
+    }
+
+    .containerComentarios {
+    display: none !important;
+
+        
+    }
+
+.reservaImagen{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.menuPescados{
+    grid-template-areas: 
+    "uno"
+    "dos"
+    "tres";
+    grid-template-rows:1;
+    grid-template-columns:1;
+}
+.listasMenu{
+    width:50px;
+    margin:auto;
+    font-size: 3px;
+    
+
+    }
+    nav ul li{  
+    font-size: 20px;
+    }
+    .myBotton{
+    border-radius:12px;
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 20px;
+    } 
+
+    .fotosInstagram{
+        width: 100%;
+        margin-left:auto;
+    }
+
+    .textoCentral {
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+        
+    }
+    .logo{
+    
+        width:60px;
+        margin-left:20%;
+    }
+
+    .titulo{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+
+  
+.map {
+    padding-top:0;
+}
+/* index mobilfirst*/
+
+
+.sectionMenu {
+    align-items: center;
+    font-size: 9px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* menu pescados*/
+.menuPescados{
+    width: 20%;
+    margin-left:18%;
+    
+
+
+}
+
+.texto {
+    text-overflow: clip;  
+    height: 300px;
+}
+
+.texto2 {
+    margin-top: 70px;
+    height: 300px;
+}
+
+.texto3 {
+    margin-top: 70px;
+}
+
+
+
+
+/* postres*/
+
+.menuPostres {
+    display:flow-root;
+    margin-left: 18%;
+    
+
+}
+.postre1{
+    width: 300px;
+    margin-top: 70px;
+    
+}
+.postre2{
+    width: 300px;
+    margin-top: 70px;
+    
+}
+.postre3{
+    width: 300px;
+    margin-top: 70px;
+
+    
+}
+
+
+}
+
+.containerComentarios{
+    width: 74%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    "seis dos tres "
+    "cuatro cinco uno ";
+    grid-template-rows: repeat(2 ,1fr);
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-bottom: 70px;
+}
+
+
+    .texto1{
+        grid-area:uno;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        
+        
+    }
+    .texto2{
+        grid-area:dos;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .texto3{
+        grid-area: tres;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .texto4{
+        grid-area: cuatro;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .texto5{
+        grid-area:cinco;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .texto6{
+        grid-area: seis;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+
+/* CAROUSEL BOOTSTRAP*/
+    .carousel-item{
+
+        justify-content: center;
+        margin-left:25%;
+        margin-right:25%;
+        
+    }
+    
+    .cupon{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+   
+

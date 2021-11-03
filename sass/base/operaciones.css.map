@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,gBAAgB;AAChB,AAAA,QAAQ,CAAA;EACJ,KAAK,EALK,GAAc;CAM3B;;AAED,iBAAiB;AAEjB,UAAU",
+    "sources": [
+        "operaciones.scss"
+    ],
+    "names": [],
+    "file": "operaciones.css"
+}

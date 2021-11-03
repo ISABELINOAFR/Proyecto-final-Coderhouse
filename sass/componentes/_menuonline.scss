@@ -1,0 +1,75 @@
+
+.menuPescados{
+    width: 30%;
+    margin-left: 18%;
+    display: grid;
+    grid-template-areas:
+    "uno dos tres ";
+    grid-template-rows:1;
+    grid-template-columns:1;
+    grid-column-gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+    
+    .cajaPescado1{
+        grid-area: uno;
+        p{
+            color: $color-texto;
+        }
+    }
+
+    .cajaPescado2{
+        grid-area: dos;
+        
+        p{
+            color:$color-texto
+        }
+    }
+    .cajaPescado3{
+        grid-area: tres;
+        
+        p{
+            color:$color-texto
+        }
+    }
+}
+
+.menuPostres{
+    width: 20%;
+    margin-left: 18%;
+    display: grid;
+    grid-template-areas:
+    "uno dos tres ";
+    grid-template-rows:1;
+    grid-template-columns: 1;
+    grid-column-gap: 45px;
+    font-family: 'Open Sans', sans-serif;
+    .postre1{
+        grid-area: uno;
+        color: white;
+        
+    }
+    .postre2{
+        grid-area: dos;
+        color: white;
+    }
+    .postre3{
+        grid-area: tres;
+        color: white;
+    }
+
+}
+
+.listaMenu{
+    @include flexbox;
+    width:66%;
+    margin-left:17%;
+    text-decoration: none;
+
+    li{
+    display: inline;
+    margin: 0 2.5%;
+    text-decoration: none !important;
+    }
+
+
+}

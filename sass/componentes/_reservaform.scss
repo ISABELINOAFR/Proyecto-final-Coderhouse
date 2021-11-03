@@ -1,0 +1,17 @@
+.reservaImagen{
+    background-image: url(img/mesa\.jpg);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 23%;
+    opacity:0.5;
+    height: 500px;
+
+    .reservaForm{
+        padding-left: 20%;
+        padding-top: 4%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 150%;
+        color: $color-texto; /*variable*/
+    }
+}

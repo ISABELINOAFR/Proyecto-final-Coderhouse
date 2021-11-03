@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=5.0">
+        <!--Meta etiquetas description y keywords-->
+        <meta name="description" content=" Restaurante La Parrillada, reserva tu mesa con anticipacion, envianos un email con tus datos ">
+        <meta name="keywords" content=" Mejores restaurantes, Parrilladas Uruguay, Lugares para comer, 
+        Restaurante tipico Uruguayo">
+
+    <title>Reserva</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="img/logo-laparrilla.jpg" href="img/logo-laparrilla.jpg">
+
+    <!-- Whatsapp Icono-->
+    <script src="https://kit.fontawesome.com/34b6d3e2a3.js"crossorigin="anonymous"></script>
+    
+</head>
+<STYLE>A {text-decoration: none} </STYLE>
+<body>
+    <!-- Menú del Restaurante, platos, bebidas y postres-->
+    <header>
+        <nav>
+            <div  class="titulo">
+                <a href="index.html"><img src="img/logo-laparrilla.jpg" alt="logo" width="10%"><p  class="laparrilla">La Parrillada</p></a>
+            </div><br><br>
+                <ul class="listasMenu">
+                    <li><a href=index.html class="linkActive">Home</a></li>
+                        <li class="prodUctos"><a class="linkActive" href="menuonline.html">Menu Online<i class=" fas fa-sort-down"></i></a>
+                            <ul class="subMenu">
+                                <li><a style="color: rgb(131, 111, 80);" href="menuonline.html#carnes">Parrilla</a></li>
+                                <li><a style="color: rgb(131, 111, 80);" href="menuonline.html#pescados">Pescado</a></li>
+                                <li><a style="color: rgb(131, 111, 80);" href="menuonline.html#postres">Postres</a></li>
+                            
+                            </ul>
+                        </li>
+                    <li><a class="linkActive" href="#">Reserva tu mesa</a></li>
+                    <li><a class="linkActive" href="eventos.html">Eventos</a></li>
+                    <li><a class="linkActive" href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav><br><br>
+    </header>
+    <div class="cajaReserva">
+
+        <div class="reservaImagen">
+            <div class="reservaForm">
+                <form  action="guardar.php" method="POST">
+                    <div>
+                        <label for="nombre" style="color: white;">Nombre:</label>
+                        <input type="text" value=""><br><br>
+                    </div><br>
+                    <div>
+                        <label for="apellido" style="color: white;">Apellido:</label>
+                        <input type="text"value=""><br><br>
+                    </div><br>
+                    <div>
+                        <label for="email" style="color: white;">Email:</label>
+                        <input type="email" value=""><br><br>
+                    </div><br>
+                    <div>
+                        <label style="color: white"; for="integrantes" >Integrantes</label>
+                        <select name="Integrantes">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                        </select><br><br>
+                    </div>
+                    <div>
+                            <label style="color: white"; for="comentario">Comentarios:</label>
+                            <textarea></textarea><br><br>
+                    </div>
+                    <div>
+                            <input type="submit" value="Enviar formulario">
+                            <input type="reset" value="Limpiar Formulario">
+                    </div>
+                </form>
+                
+            </div>
+
+            
+
+        </div>
+    
+    </div>
+    <!--
+        <div class="cajablanca"></div>
+        <div class="cajaroja"></div>
+        <div class="cajaverde"></div>
+    -->    
+    <footer>
+        <div class="footer" >
+            <a href="https:web.whatsapp.com/"target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <p>La Parrillada - Made by Alvaro Fernández</p>
+        </div>
+    </footer>
+</body>
+</html>

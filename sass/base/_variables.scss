@@ -1,0 +1,50 @@
+/* Variables*/
+
+$color-principal: black;
+$color-texto:white;
+$color-boton:orange;
+
+
+$max-width: 100%;
+
+
+
+
+
+
+
+/* LISTAS*/
+
+$colores:
+
+black, /*1*/
+white,/*2*/
+orange;/*3*/
+
+
+/* MAPS */
+
+$coloresMaps:(
+    /*key: value*/
+    $color-principal: black,
+    $color-texto:white,
+    $color-boton:orange,
+
+);
+
+
+
+/* if */
+
+$color:white;
+
+p{
+    @if ($color == white){
+        color: white;
+    } @else {
+        color: orange;
+    }
+
+
+}
+

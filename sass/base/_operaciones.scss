@@ -1,0 +1,63 @@
+$anchoTotal: 100%;
+$anchoMitad:  $anchoTotal /2;
+$anchoCuarto: $anchoTotal /4;
+
+
+
+/* OPERACIONES*/
+.galeria{
+    width: $anchoMitad;
+}
+
+
+
+div{
+    /*suma*/
+    width: 3em + 6;
+    font-size: 16px + 2;
+    /*resta*/
+    padding: 2em - 1;
+    height: 20% - 6;
+}
+
+
+
+
+
+
+/*condicionales*/
+
+/*Mixins*/
+@mixin cuadradoColor ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+
+    @if $ancho == 50px {
+        background-color: $color-principal;
+    }else {
+        background-color: $color-boton;
+    }
+    
+}
+
+.cuadro__color{
+    @include cuadradoColor(51px, 50px)
+}
+
+@mixin alerts ($color) {
+    border: colid 1px $color;
+    border-radius: 4px;
+    background-color: lighter ( $color, 10%);
+
+    @if $color == red {
+        width: 100%;
+        height: 100%;
+        
+    } @else {
+        width: 50%;
+        height: 50%;
+    }  
+}
+
+
+   

@@ -1,0 +1,204 @@
+/* Variables*/
+/* LISTAS*/
+/*3*/
+/* MAPS */
+/* if */
+p {
+  color: white;
+}
+
+/* OPERACIONES*/
+.galeria {
+  width: 50%;
+}
+
+div {
+  /*suma*/
+  width: 9em;
+  font-size: 18px;
+  /*resta*/
+  padding: 1em;
+  height: 14%;
+}
+
+/*condicionales*/
+/*Mixins*/
+.cuadro__color {
+  width: 51px;
+  height: 50px;
+}
+
+.cuadro__color else {
+  background-color: orange;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuPescados {
+  width: 30%;
+  margin-left: 18%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "uno dos tres ";
+  -ms-grid-rows: 1;
+      grid-template-rows: 1;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  grid-column-gap: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menuPescados .cajaPescado1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: uno;
+}
+
+.menuPescados .cajaPescado1 p {
+  color: white;
+}
+
+.menuPescados .cajaPescado2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: dos;
+}
+
+.menuPescados .cajaPescado2 p {
+  color: white;
+}
+
+.menuPescados .cajaPescado3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: tres;
+}
+
+.menuPescados .cajaPescado3 p {
+  color: white;
+}
+
+.menuPostres {
+  width: 20%;
+  margin-left: 18%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "uno dos tres ";
+  -ms-grid-rows: 1;
+      grid-template-rows: 1;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  grid-column-gap: 45px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menuPostres .postre1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: uno;
+  color: white;
+}
+
+.menuPostres .postre2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: dos;
+  color: white;
+}
+
+.menuPostres .postre3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: tres;
+  color: white;
+}
+
+
+.visitanos {
+  color: white;
+  width: 300px;
+  height: 100%;
+  padding-top: 4%;
+}
+
+.visitanos__div {
+  text-align: center;
+  font-size: 15px;
+}
+
+.visitanos__div h3 {
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+footer {
+  color: white;
+  /*variable*/
+  text-align: center;
+  padding: top 10px;
+  padding-bottom: 3%;
+  font-family: 'Open Sans', sans-serif;
+  height: 100px;
+  padding-top: 4%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9b7733), to(black));
+  background-image: linear-gradient(to top, #9b7733, black);
+}
+
+footer a p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reservaImagen {
+  background-image: url(img/mesa\.jpg);
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 23%;
+  opacity: 0.5;
+  height: 500px;
+}
+
+.reservaImagen .reservaForm {
+  padding-left: 20%;
+  padding-top: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  color: white;
+  /*variable*/
+}
+
+header {
+  background-color: black;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li a {
+  color: white;
+  /*variable aplicada*/
+}
+
+header .botones {
+  width: 20;
+  height: 20;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
