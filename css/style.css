@@ -21,7 +21,7 @@ hr{
     padding: top 10px;
     padding-bottom: 3%;
     font-family: 'Open Sans', sans-serif;
-    height: 100px;
+    height: 15px;
     padding-top: 4%;
     
 }
@@ -32,22 +32,18 @@ footer{
 
 
 /* NAV LOGO */
-.titulo{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    text-decoration: none !important;
 
-}
-.laparrilla{
+.tituloLaparrillada{
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     text-decoration: none !important;
+    font-size: 50px;
+    text-align: center;
 }
 .titulo{
     animation-duration: 2s;
     animation-name: slidein;
-    text-decoration: none !important;
+    text-align: center;
 }
 
 
@@ -70,7 +66,8 @@ text-decoration: none !important;
 }
 nav ul li{  
     font-family: 'Open Sans', sans-serif;
-     font-size: 25px;
+    font-size: 25px;
+    
 }
 h1{
 color: white;
@@ -106,10 +103,11 @@ padding: 5px;
 .listasMenu{
 display:flex;
 justify-content:space-evenly ;
-width: 66%;
-margin-left: 17%;
+width: 60%;
+margin: auto;
 flex-wrap: wrap;
 text-decoration: none !important;
+font-family: 'Open Sans', sans-serif !important;
 
 }
 .listasMenu li {
@@ -141,6 +139,7 @@ border-bottom-left-radius: 20px;
 color: burlywood;
 display: block;
 margin: 10px 0;
+
 
 
 }
@@ -196,8 +195,29 @@ padding-left: 0%;
 font-size: 20px;
 
 }
-
-
+.sectionMenu{
+    column-count: 3;
+    text-align:justify center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55%;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+   }
+.menuTitulos{
+    padding-left: 22.5%;
+    
+}
+.listaMenu{
+    margin-left: 20px;
+    
+}
 
 /* REDES SOCIALES*/
 .socialMedia{
@@ -354,16 +374,8 @@ text-align: center;
 
 
 
-/* MENU RESTAURANTE*/
-
-.sectionMenu{
-column-count: 3;
-text-align:justify center;
-margin:0 15% 0 12%;
-font-size: 17px;
 
 
-}
 .galeria{
     text-align: center;
     
@@ -374,20 +386,13 @@ font-size: 17px;
     font-size: 30px;
 }
 .row{
-    column-count: 2;
+    column-count:1;
     column-gap: 5px;
-    padding-left: 7%;
-    padding-right: 13%;
+    width: 75%;
+    margin-left: 10%;
+
 }
-.menuTitulos{
-margin-left: 18%;
-}
-.listaMenu{
-padding-left: 25%;
-color:white;
-font-family: 'Open Sans', sans-serif;
-word-spacing: 4px;
-}
+
 .fa-whatsapp{
     position: fixed;
     width: 55px;
@@ -500,14 +505,14 @@ padding-top:4%;
     /* GRIDS POR AREAS PARA MENU PESCADOS*/
 
 .menuPescados{
-    width: 30%;
-    margin-left: 18%;
+    width:320px;
+    margin-left:385px;
     display: grid;
     grid-template-areas:
     "uno dos tres ";
     grid-template-rows:1;
     grid-template-columns:1;
-    grid-column-gap: 50px;
+    grid-column-gap: 15px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     
@@ -516,6 +521,7 @@ padding-top:4%;
 }
 .cajaPescado1{
     grid-area: uno;
+
     
 
 }
@@ -531,14 +537,14 @@ padding-top:4%;
 /* GRIDS POR AREAS PARA MENU POSTRES*/
 
 .menuPostres{
-    width: 20%;
-    margin-left: 18%;
+    width: 300px;
+    margin-left:380px;
     display: grid;
     grid-template-areas:
     "uno dos tres ";
     grid-template-rows:1;
     grid-template-columns: 1;
-    grid-column-gap: 45px;
+    grid-column-gap: 15px;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -558,45 +564,50 @@ padding-top:4%;
 
 @media only screen and (max-width:480px) {
 
-    tablas {
-        color: white;
-        width: 50px;
-        height: 50px;
-        margin-left: 5px;
-        margin-right: 5px;
-        text-align: center;
-        font-size: 5rem;
-        border: 1% solid white;
+    div h2{
+        display: none;
     }
-
     .containerComentarios {
     display: none !important;
 
         
     }
 
-.reservaImagen{
+    .reservaImagen{
     margin-left: 5%;
     margin-right: 5%;
 
-}
-.menuPescados{
-    grid-template-areas: 
-    "uno"
-    "dos"
-    "tres";
-    grid-template-rows:1;
-    grid-template-columns:1;
-}
-.listasMenu{
-    width:50px;
-    margin:auto;
-    font-size: 3px;
-    
-
     }
+    
+    .sectionMenu{
+        column-count: 3;
+        text-align:justify center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 10px;
+        background-color: white;
+        color: black;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        
+        
+    }
+    .listasMenu{
+        width: 100%;
+        justify-content: space-evenly;
+        
+        
+        }
+
+        ol ,ul{
+        padding:0%;
+        }
+    
     nav ul li{  
-    font-size: 20px;
+    font-size: 12px;
+    
     }
     .myBotton{
     border-radius:12px;
@@ -606,51 +617,65 @@ padding-top:4%;
     } 
 
     .fotosInstagram{
-        width: 100%;
-        margin-left:auto;
+        display: none;
     }
 
     .textoCentral {
-        text-align: center;
+        text-align: justify;
         margin-left: 15%;
         margin-right: 15%;
+        font-size: 15px;
         
         
     }
     .logo{
     
-        width:60px;
-        margin-left:20%;
+        width:80px;
+        margin-left:30%;
     }
 
     .titulo{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    padding-left:auto;
+    text-decoration: none !important;
     
     }
+    .tituloLaparrillada{
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
 
-  
-.map {
+    }
+    .map {
     padding-top:0;
-}
-/* index mobilfirst*/
-
-
-.sectionMenu {
-    align-items: center;
-    font-size: 9px;
-    margin-left:auto;
-    margin-right:auto;
-}
+    }
 
 /* menu pescados*/
 .menuPescados{
-    width: 20%;
-    margin-left:18%;
+    margin-left:auto;
+    margin-right: auto;
+    display:flow-root;  
+}
+
+.cajaPescado1{
+    grid-area: uno;
+    font-size: 15px;
+    padding-bottom: 30px;
     
 
-
+}
+.cajaPescado2{
+    grid-area: dos;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.cajaPescado3{
+    grid-area: tres;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 15px;
 }
 
 .texto {
@@ -674,29 +699,125 @@ padding-top:4%;
 
 .menuPostres {
     display:flow-root;
-    margin-left: 18%;
+    margin-left:auto;
+    margin-right: auto;
     
 
 }
 .postre1{
     width: 300px;
     margin-top: 70px;
+    font-size: 15px;
     
 }
 .postre2{
     width: 300px;
     margin-top: 70px;
+    font-size: 15px;
     
 }
 .postre3{
     width: 300px;
     margin-top: 70px;
+    font-size: 15px;
 
     
 }
+.row{
+    column-count: 1;
+}
+
+    .centrarGaleriatexto{
+        margin-right:auto;
+        font-size: 15px;
+}
+
+    .flex{
+        padding-top: 50px;
+        display: block;
+}
+.visitanos {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white;
+    width: 200px;
+    height: 100%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.cajaImagen {
+    font-family: 'Open Sans', sans-serif !important;
+    background-image: url(img/imagen\ 1.jpg);
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 5px;
+    opacity: 0.6;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+    .footer{
+        color: white;
+        text-align: center;
+        padding: top 20px;
+        font-family: 'Open Sans', sans-serif;
+        height: 100%;
+        
+}
+.menuTitulos{
+    font-size: 15px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.eventoVideos{
+    width: 90%;
+}
+.eventoTexto{
+    text-align: center;
+}
+.textoShow{
+    text-align: center;
+}
+.tablas{
+    display: none;
+}
+.cajadeContacto{
+    text-align: center;
+
+}
+.cajaContacto{
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cajaUno{
+    text-align: center;
+    display: none;
+}
+.cajaDos{
+    text-align: center;
+   
 
 
 }
+}
+
+
+
+
+
+
+
+
+
 
 .containerComentarios{
     width: 74%;
@@ -711,7 +832,6 @@ padding-top:4%;
     grid-column-gap: 20px;
     margin-bottom: 70px;
 }
-
 
     .texto1{
         grid-area:uno;
@@ -772,5 +892,25 @@ padding-top:4%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
-   
 
+    .cajadeContacto{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .cajaContacto{
+        display:flex;
+        width: 150%;
+        margin-left:20%;
+    }
+    .cajaUno{
+    width: 20%;
+    padding-top: 100px;
+    text-align: center;
+   }
+
+    .cajaDos{
+    width: 20%;
+    color:white;
+    text-align: center;
+    
+ }
