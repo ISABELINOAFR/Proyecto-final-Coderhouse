@@ -23,11 +23,9 @@ hr{
     font-family: 'Open Sans', sans-serif;
     height: 15px;
     padding-top: 4%;
-    
-}
-footer{
     background-image: linear-gradient(to top, rgb(155, 119, 51), black);
 }
+
 
 
 
@@ -599,6 +597,8 @@ padding-top:4%;
         justify-content: space-evenly;
         
         
+        
+        
         }
 
         ol ,ul{
@@ -607,6 +607,7 @@ padding-top:4%;
     
     nav ul li{  
     font-size: 12px;
+
     
     }
     .myBotton{
@@ -767,7 +768,7 @@ padding-top:4%;
         text-align: center;
         padding: top 20px;
         font-family: 'Open Sans', sans-serif;
-        height: 100%;
+     
         
 }
 .menuTitulos{
@@ -790,6 +791,7 @@ padding-top:4%;
 }
 .cajadeContacto{
     text-align: center;
+    padding-top: 0%;
 
 }
 .cajaContacto{
@@ -894,8 +896,9 @@ padding-top:4%;
     }
 
     .cajadeContacto{
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
     }
     .cajaContacto{
         display:flex;
@@ -914,3 +917,26 @@ padding-top:4%;
     text-align: center;
     
  }
+
+ .cajaNueva{
+     column-count: 3;
+     width: 80%;
+     padding-top: 100px;
+     padding-left: 25%;
+     padding-right: auto;
+     text-align: center;
+     height: 50%;
+     display: inline-flex;
+    column-gap: 20%;
+ }
+  .informacion{
+      display: inline;
+      color: white;
+      
+
+
+  }
+  .informacionUbucacion{
+      color: white;
+
+  }
