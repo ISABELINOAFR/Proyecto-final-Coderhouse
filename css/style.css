@@ -196,8 +196,8 @@ font-size: 20px;
     column-count: 3;
     text-align:justify center;
     margin-right: auto;
-    margin-left: auto;
-    width: 55%;
+    margin-left: 24%;
+    width: 53%;
     font-size: 17px;
     background-color: white;
     color: black;
@@ -205,10 +205,12 @@ font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
-    
+    margin-top:70px;
    }
 .menuTitulos{
-    padding-left: 22.5%;
+    padding-left: 24%;
+
+
     
 }
 .listaMenu{
@@ -317,7 +319,9 @@ h2{
     background-repeat: no-repeat;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 23%;
+    width: 100%;
+    margin-left: 24%;
+    margin-right: 26%;
     opacity:0.5;
     height: 500px;
 
@@ -346,6 +350,8 @@ text-align: center;
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 border: 1px solid white;
+
+
 
 }
 
@@ -506,15 +512,20 @@ padding-top:4%;
 
     /* GRIDS POR AREAS PARA MENU PESCADOS*/
 
+    .containerPescados{
+        padding-top: 50px;
+
+
+    }
 .menuPescados{
-    width:320px;
-    margin-left:385px;
+    width:45%;
+    margin-left:24%;
     display: grid;
     grid-template-areas:
     "uno dos tres ";
     grid-template-rows:1;
     grid-template-columns:1;
-    grid-column-gap: 15px;
+    grid-column-gap: 10px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     
@@ -538,15 +549,19 @@ padding-top:4%;
 
 /* GRIDS POR AREAS PARA MENU POSTRES*/
 
+.containerPostres{
+    padding-top: 50px;
+}
 .menuPostres{
-    width: 300px;
-    margin-left:380px;
+    width: 50%;
+    margin-left:24%;
+    margin-right: auto;
     display: grid;
     grid-template-areas:
     "uno dos tres ";
     grid-template-rows:1;
     grid-template-columns: 1;
-    grid-column-gap: 15px;
+    grid-column-gap: 10px;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -598,7 +613,7 @@ padding-top:4%;
         color: black;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
-        padding-top: 10px;
+        padding-top: 50px;
         
         
     }
@@ -778,6 +793,7 @@ padding-top:4%;
         
 }
 .menuTitulos{
+    
     font-size: 15px;
     padding-left: auto;
     padding-right: auto;
@@ -826,6 +842,10 @@ padding-top:4%;
 .informacionUbucacion{
     color: white;
 
+}
+
+.containerPostres{
+    margin-right: 25%;
 }
 
 }
@@ -937,9 +957,32 @@ padding-top:4%;
     
     .cupon{
         text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 15%;
+        
     }
+
+.modal-dialog{
+    padding-top: 240px;
+}
+    .modal-header {
+        background-color: black;
+    }
+    .modal-footer{
+        background-color: black;
+    }
+
+    .modal-title{
+        color:orange;
+    }
+    .modal-body{
+        color: orange;
+        font-size: 20px;
+        background-color: black;
+        border-color: orange;
+        padding-top:100px;
+        padding-bottom: 100px;
+    }
+    
 
     .cajadeContacto{
         margin-top: 50px;
