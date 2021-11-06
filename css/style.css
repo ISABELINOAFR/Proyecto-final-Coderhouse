@@ -372,6 +372,11 @@ text-align: center;
 
 
 
+	
+.row:hover .picada {-webkit-transform:scale(.9);transform:scale(.9);}
+.row {overflow:hidden;}
+
+
 
 
 .galeria{
@@ -660,8 +665,6 @@ padding-top:4%;
 
 /* menu pescados*/
 .menuPescados{
-    margin-left:auto;
-    margin-right: auto;
     display:flow-root;  
 }
 
@@ -706,9 +709,6 @@ padding-top:4%;
 
 .menuPostres {
     display:flow-root;
-    margin-left:auto;
-    margin-right: auto;
-    
 
 }
 .postre1{
@@ -916,11 +916,22 @@ padding-top:4%;
 
 /* CAROUSEL BOOTSTRAP*/
     .carousel-item{
-
-        justify-content: center;
-        margin-left:25%;
-        margin-right:25%;
+        width: 70%;
+        margin-left:15%;
+        margin-right:15%;
         
+        
+    }
+    
+
+
+    .botonMenu{
+        margin-top: 100px;
+    }
+
+    .tamanoFoto{
+        width: 100%;
+        height: 500px;
     }
     
     .cupon{
