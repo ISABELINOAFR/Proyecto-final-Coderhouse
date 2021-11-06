@@ -666,6 +666,8 @@ padding-top:4%;
 /* menu pescados*/
 .menuPescados{
     display:flow-root;  
+    margin-left:20%;
+   
 }
 
 .cajaPescado1{
@@ -916,9 +918,9 @@ padding-top:4%;
 
 /* CAROUSEL BOOTSTRAP*/
     .carousel-item{
-        width: 70%;
-        margin-left:15%;
-        margin-right:15%;
+        width: 50%;
+        margin-left:25%;
+        margin-right:25%;
         
         
     }
