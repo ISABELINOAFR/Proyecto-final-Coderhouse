@@ -19,7 +19,6 @@ hr{
     color: white;
     text-align: center;
     padding: top 10px;
-    padding-bottom: 3%;
     font-family: 'Open Sans', sans-serif;
     height: 15px;
     padding-top: 4%;
@@ -327,10 +326,13 @@ h2{
 
 }
 .reservaForm{
-    padding-left: 25%;
-    padding-top: 4%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 150%;
+    width: 100%;
+    margin-left: 18%;
+    padding-top: 4%;
+    font-size: 100%;
+    
+    
 }
 .rectanguloDerecha{
     color: grey;
@@ -597,10 +599,19 @@ padding-top:4%;
 
 
     .reservaImagen{
-    margin-left: 5%;
-    margin-right: 5%;
+  width: 100%;
+  margin-left: 0;
 
     }
+    .cajaReserva{
+        padding-left: 0px;
+    }
+    .reservaForm{
+        padding-left: 5%;
+       font-size: 15px;
+       padding-top: 15%;
+    }
+
     
     .sectionMenu{
         column-count: 3;
@@ -788,7 +799,7 @@ padding-top:4%;
     .footer{
         color: white;
         text-align: center;
-        padding: top 20px;
+        padding-top: 20px;
         font-family: 'Open Sans', sans-serif;
         
 }
