@@ -962,7 +962,7 @@ padding-top:4%;
     }
 
 .modal-dialog{
-    padding-top: 240px;
+    padding-top: 295px;
 }
     .modal-header {
         background-color: black;
@@ -976,7 +976,7 @@ padding-top:4%;
     }
     .modal-body{
         color: orange;
-        font-size: 20px;
+        font-size: 200%;
         background-color: black;
         border-color: orange;
         padding-top:100px;
