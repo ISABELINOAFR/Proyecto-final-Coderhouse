@@ -384,7 +384,7 @@ h2 {
 
 .row {
     column-count: 1;
-    column-gap: 5px;
+    column-gap: 6px;
     width: 75%;
     margin-left: 13%;
 }
