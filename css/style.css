@@ -493,20 +493,19 @@ h2 {
 }
 
 .menuPescados {
-    width: 50%;
-    margin-left: 24%;
-    margin-right: 24%;
+    width: 60%;
+    margin: auto;
     display: grid;
     grid-template-areas: "uno dos tres ";
     grid-template-rows: 1;
     grid-template-columns: 1;
-    grid-column-gap: 7px;
+    grid-column-gap: 5px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
 .menuPescados p {
-    font-size: 18px;
+    font-size: 15px;
     font-style: italic;
 }
 
@@ -533,18 +532,17 @@ h2 {
 }
 
 .menuPostres {
-    width: 50%;
-    margin-left: 24%;
-    margin-right: auto;
+    width: 60%;
+    margin: auto;
     display: grid;
     grid-template-areas: "uno dos tres ";
     grid-template-rows: 1;
     grid-template-columns: 1;
-    grid-column-gap: 10px;
+    grid-column-gap: 5px;
 }
 
 .menuPostres p {
-    font-size: 18px;
+    font-size: 15px;
     font-style: italic;
 }
 
