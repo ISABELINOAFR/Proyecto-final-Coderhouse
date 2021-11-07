@@ -186,17 +186,19 @@ a.myBotton:hover {
     text-align: justify center;
     width: 53%;
     font-size: 17px;
-    background-color: white;
+    background-color: grey;
     color: black;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
     margin: 4vh 24vw;
+    border-radius: 10%;
 }
 
 .menuTitulos {
     padding-left: 24%;
+    padding-top: 5%;
 }
 
 .listaMenu {
@@ -308,7 +310,7 @@ h2 {
     background-repeat: no-repeat;
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 100%;
+    width: 76%;
     margin-left: 24%;
     margin-right: 26%;
     opacity: 0.5;
@@ -318,7 +320,7 @@ h2 {
 .reservaForm {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    margin-left: 18%;
+    margin-left: 5%;
     padding-top: 4%;
     font-size: 100%;
 }
@@ -378,6 +380,7 @@ h2 {
 .centrarGaleriatexto {
     margin-left: -7%;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .row {
@@ -502,6 +505,11 @@ h2 {
     color: white;
 }
 
+.menuPescados p {
+    font-size: 18px;
+    font-style: italic;
+}
+
 .cajaPescado1 {
     grid-area: uno;
 }
@@ -521,6 +529,7 @@ h2 {
 
 .containerPostres {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .menuPostres {
@@ -532,7 +541,11 @@ h2 {
     grid-template-rows: 1;
     grid-template-columns: 1;
     grid-column-gap: 10px;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.menuPostres p {
+    font-size: 18px;
+    font-style: italic;
 }
 
 .postre1 {
@@ -724,7 +737,7 @@ h2 {
         display: none !important;
     }
     .textoContacto {
-        font-size: 10px;
+        font-size: 20px;
         color: white;
     }
     .reservaImagen {
@@ -740,12 +753,12 @@ h2 {
         padding-top: 15%;
     }
     .sectionMenu {
-        margin: 5% 10%;
+        margin: 0% 10%;
         column-count: 3;
         text-align: justify center;
         width: 80%;
         font-size: 10px;
-        background-color: white;
+        background-color: grey;
         color: black;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
@@ -754,6 +767,8 @@ h2 {
     .listasMenu {
         width: 100%;
         justify-content: space-evenly;
+        margin-left: 0%;
+        text-decoration: none !important;
     }
     ol,
     ul {
@@ -787,6 +802,7 @@ h2 {
         font-size: 25px;
         padding-left: auto;
         text-decoration: none !important;
+        margin-left: 0;
     }
     .tituloLaparrillada {
         font-size: 30px;
@@ -801,7 +817,7 @@ h2 {
     }
     .menuPescados {
         display: flow-root;
-        margin: 0 30%;
+        margin: 0 29%;
     }
     .menuPescados h3 {
         margin: 0;
@@ -839,8 +855,21 @@ h2 {
         margin-top: 70px;
     }
     /* postres*/
+    .containerPostres {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .menuPostres h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .menuPostres p {
+        font-size: 11px;
+        font-style: italic
+    }
     .menuPostres {
         display: flow-root;
+        margin: 0 30%;
     }
     .postre1 {
         width: 300px;
@@ -862,7 +891,11 @@ h2 {
     }
     .centrarGaleriatexto {
         margin-right: auto;
-        font-size: 15px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .centraGaleriarexto h3 {
+        font-size: 13px;
     }
     .flex {
         padding-top: 50px;
@@ -902,6 +935,8 @@ h2 {
         padding-left: auto;
         padding-right: auto;
         padding-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .eventoVideos {
         width: 90%;
@@ -940,6 +975,6 @@ h2 {
         color: white;
     }
     .containerPostres {
-        margin-right: 25%;
+        margin-right: 0%;
     }
 }
