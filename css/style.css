@@ -378,7 +378,6 @@ h2 {
 }
 
 .centrarGaleriatexto {
-    margin-left: -7%;
     font-size: 30px;
     padding-bottom: 50px;
 }
@@ -387,7 +386,7 @@ h2 {
     column-count: 1;
     column-gap: 5px;
     width: 75%;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 .fa-whatsapp {
@@ -494,13 +493,14 @@ h2 {
 }
 
 .menuPescados {
-    width: 45%;
+    width: 50%;
     margin-left: 24%;
+    margin-right: 24%;
     display: grid;
     grid-template-areas: "uno dos tres ";
     grid-template-rows: 1;
     grid-template-columns: 1;
-    grid-column-gap: 10px;
+    grid-column-gap: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
