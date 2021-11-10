@@ -1,36 +1,18 @@
-
-header{
+header {
     background-color: $color-principal;
-    
-    nav{
+    nav {
         display: flex;
-
-        ul{
-            @extend %flexboxRow; 
-            li{
-
-                a{
-                color: $color-texto;/*variable aplicada*/
-                    
+        ul {
+            @extend %flexboxRow;
+            li {
+                a {
+                    color: $color-texto;
+                    /*variable aplicada*/
                 }
             }
         }
     }
-
-    .botones{
-        @include botones(20 , 20)
+    .botones {
+        @include botones(20, 20)
     }
 }
-
-/*
-.cuadrado{
-    background-color: nth ($colores, 2);
-    color: nth($colores, 3)
-}/* nth NUMEROS ORDINALES*/
-
-/*
-.circulo{
-    background-color: map-get($coloresMaps, $color-principal );
-    color:map-get($coloresMaps, $color-texto);
-}
-*/

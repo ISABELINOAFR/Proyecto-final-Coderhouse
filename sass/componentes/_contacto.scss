@@ -1,22 +1,14 @@
-
-.visitanos{
-       
-        color:$color-texto;
-        width: 300px;
-        height: 100%;
-        padding-top:4%;
-
-    &__div{
+.visitanos {
+    color: $color-texto;
+    width: 300px;
+    height: 100%;
+    padding-top: 4%;
+    &__div {
         text-align: center;
         font-size: 15px;
-
-        h3{
-        color:$color-texto;
-        font-family: 'Open Sans', sans-serif !important;
-        
+        h3 {
+            color: $color-texto;
+            font-family: 'Open Sans', sans-serif !important;
         }
-
     }
-    
 }
-

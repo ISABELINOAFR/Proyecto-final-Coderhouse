@@ -670,7 +670,7 @@ h2 {
 }
 
 .modal-header {
-    background-color: black;
+    padding-top: 295px;
 }
 
 .modal-footer {

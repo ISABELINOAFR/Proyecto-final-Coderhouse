@@ -1,0 +1,32 @@
+            .carousel-item {
+                width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+            
+            .modal-fade {
+                &__modal-dialog {
+                    padding-top: 295px;
+                    & __ modal-content {
+                        & __ modal-header {
+                            padding-top: 295px;
+                            &__modal-title {
+                                color: $color-boton;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .modal-body {
+                color: $color-boton;
+                font-size: 200%;
+                background-color: $color-principal;
+                border-color: $color-boton;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+            
+            .modal-footer {
+                background-color: $color-principal;
+            }

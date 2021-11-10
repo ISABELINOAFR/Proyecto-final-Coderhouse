@@ -1,54 +1,42 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 $primary-color:white;
 $bgcolor:black;
-
-
-
-
-.navegador{
+.navegador {
     background-color: black;
     height: 150px;
-    
-    &__listas{
+    &__listas {
         display: flex;
         justify-content: space-evenly;
         width: 80%;
         margin: auto;
-        
-            
-            
-        &__productos{
+        &__productos {
             color: white;
         }
     }
 }
 
-.social{
+.social {
     padding-bottom: 10px;
     background-color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    &__icono{
+    &__icono {
         text-align: center;
         font-size: 50px;
     }
-
 }
 
-.fotosInstagram{
-    display:grid;
+.fotosInstagram {
+    display: grid;
     width: 80%;
-    grid-template-columns:2;
-    grid-template-columns:"uno dos" ;
+    grid-template-columns: 2;
+    grid-template-columns: "uno dos";
     margin-left: 10%;
-    
-    &__insta{
+    &__insta {
         padding: 50px;
     }
-
 }
