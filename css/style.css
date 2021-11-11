@@ -154,6 +154,10 @@ a.linkActive:hover {
     size: 60%;
 }
 
+.claseMail {
+    font-size: 1rem;
+}
+
 
 /* MENU BOTON ONLINE */
 
@@ -801,7 +805,7 @@ h2 {
         font-size: 15px;
     }
     .logo {
-        width: 80px;
+        width: 100px;
         margin-left: 30%;
     }
     .titulo {
@@ -990,5 +994,14 @@ h2 {
     }
     .containerPostres {
         margin-right: 0%;
+    }
+    div div div p {
+        font-size: .9rem;
+    }
+    .hideComentarios {
+        display: none;
+    }
+    .claseMail {
+        font-size: .6rem;
     }
 }
