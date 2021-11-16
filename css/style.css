@@ -505,7 +505,8 @@ h2 {
 
 .menuPescados {
     width: 60%;
-    margin: auto;
+    margin-right: 20%;
+    margin-left: 24%;
     display: grid;
     grid-template-areas: "uno dos tres ";
     grid-template-rows: 1;
@@ -522,16 +523,19 @@ h2 {
 
 .cajaPescado1 {
     grid-area: uno;
+    width: 75%;
 }
 
 .cajaPescado2 {
     grid-area: dos;
     color: white;
+    width: 75%;
 }
 
 .cajaPescado3 {
     grid-area: tres;
     color: white;
+    width: 75%;
 }
 
 
@@ -544,7 +548,8 @@ h2 {
 
 .menuPostres {
     width: 60%;
-    margin: auto;
+    margin-right: 20%;
+    margin-left: 24%;
     display: grid;
     grid-template-areas: "uno dos tres ";
     grid-template-rows: 1;
@@ -560,16 +565,19 @@ h2 {
 .postre1 {
     grid-area: uno;
     color: white;
+    width: 70%;
 }
 
 .postre2 {
     grid-area: dos;
     color: white;
+    width: 70%;
 }
 
 .postre3 {
     grid-area: tres;
     color: white;
+    width: 70%;
 }
 
 .textoContacto {
