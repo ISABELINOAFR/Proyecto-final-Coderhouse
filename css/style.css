@@ -777,7 +777,7 @@ h2 {
     .reservaForm {
         padding-left: 5%;
         font-size: 15px;
-        padding-top: 9%;
+        padding-top: 0%;
     }
     .cupon {
         padding-top: 20%;
@@ -847,7 +847,7 @@ h2 {
     }
     .menuPescados {
         display: flow-root;
-        margin: 0 29%;
+        margin: 0 37%;
     }
     .menuPescados h3 {
         margin: 0;
@@ -861,6 +861,8 @@ h2 {
         grid-area: uno;
         padding-bottom: 30px;
         margin-right: 35%;
+        width: 45%;
+        margin-bottom: 10%;
     }
     .cajaPescado2 {
         grid-area: dos;
@@ -868,6 +870,8 @@ h2 {
         font-size: 15px;
         padding-bottom: 30px;
         margin-right: 35%;
+        width: 45%;
+        margin-bottom: 10%;
     }
     .cajaPescado3 {
         grid-area: tres;
@@ -875,6 +879,7 @@ h2 {
         font-size: 15px;
         padding-bottom: 15px;
         margin-right: 35%;
+        width: 45%;
     }
     .texto {
         text-overflow: clip;
@@ -902,20 +907,20 @@ h2 {
     }
     .menuPostres {
         display: flow-root;
-        margin: 0 30%;
+        margin: 0 37%;
     }
     .postre1 {
-        width: 300px;
+        width: 45%;
         margin-top: 70px;
         font-size: 15px;
     }
     .postre2 {
-        width: 300px;
+        width: 45%;
         margin-top: 70px;
         font-size: 15px;
     }
     .postre3 {
-        width: 300px;
+        width: 45%;
         margin-top: 70px;
         font-size: 15px;
     }
