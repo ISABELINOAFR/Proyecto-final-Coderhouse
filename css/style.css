@@ -354,7 +354,7 @@ h2 {
     margin-right: auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 100%;
     border: 1px solid white;
 }
 
@@ -965,6 +965,9 @@ h2 {
         margin-right: auto;
         font-size: 10px;
     }
+    .cajaForm {
+        width: 100%;
+    }
     .footer {
         color: white;
         text-align: center;
@@ -973,6 +976,294 @@ h2 {
     }
     .menuTitulos {
         font-size: 15px;
+        padding-left: auto;
+        padding-right: auto;
+        padding-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .eventoVideos {
+        width: 90%;
+    }
+    .eventoTexto {
+        text-align: center;
+    }
+    .textoShow {
+        text-align: center;
+    }
+    .tablas {
+        display: none;
+    }
+    .cajadeContacto {
+        text-align: center;
+        padding-top: 0%;
+    }
+    .cajaContacto {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cajaUno {
+        text-align: center;
+        display: none;
+    }
+    .cajaDos {
+        text-align: center;
+    }
+    .cajaNueva {
+        padding-left: 5%;
+        padding-right: 5%;
+        column-gap: 5px;
+    }
+    .informacionUbucacion {
+        color: white;
+    }
+    .containerPostres {
+        margin-right: 0%;
+    }
+    div div div p {
+        font-size: .9rem;
+    }
+    .hideComentarios {
+        display: none;
+    }
+    .claseMail {
+        font-size: .6rem;
+    }
+    .modal-dialog {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    div h2 {
+        display: none;
+    }
+    .containerComentarios {
+        display: none !important;
+    }
+    .textoContacto {
+        font-size: 20px;
+        color: white;
+    }
+    .reservaImagen {
+        width: 100%;
+        margin-left: 0;
+    }
+    .cajaReserva {
+        padding-left: 0px;
+    }
+    .reservaForm {
+        padding-left: 15%;
+        font-size: 70%;
+        padding-top: 5%;
+    }
+    .submitBottom {
+        width: 240%;
+    }
+    .resetBottom {
+        width: 240%;
+    }
+    w .cupon {
+        padding-top: 20%;
+    }
+    .sectionMenu {
+        margin: 0% 10%;
+        column-count: 3;
+        text-align: justify center;
+        width: 80%;
+        font-size: 10px;
+        background-color: grey;
+        color: black;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5px;
+    }
+    .eventoVideos {
+        width: 100%;
+    }
+    .listasMenu {
+        width: 100%;
+        justify-content: space-evenly;
+        margin-left: 0%;
+        text-decoration: none !important;
+    }
+    ol,
+    ul {
+        padding: 0%;
+    }
+    nav ul li {
+        font-size: 18px;
+    }
+    .myBotton {
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 4px 20px;
+    }
+    .fotosInstagram {
+        display: none;
+    }
+    .textoCentral {
+        text-alig: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 15px;
+    }
+    .logo {
+        width: 100px;
+        margin-left: 30%;
+    }
+    .titulo {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        padding-left: auto;
+        text-decoration: none !important;
+        margin-left: 0;
+    }
+    .tituloLaparrillada {
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .map {
+        padding-top: 0;
+    }
+    /* menu pescados*/
+    .containerPescados {
+        padding-top: unset;
+    }
+    .menuPescados {
+        display: flow-root;
+        margin: 0 20%;
+    }
+    .menuPescados h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .menuPescados p {
+        font-size: 11px;
+        font-style: italic;
+    }
+    .cajaPescado1 {
+        grid-area: uno;
+        padding-bottom: 30px;
+        margin-right: 35%;
+        width: 110%;
+        margin-bottom: 10%;
+    }
+    .cajaPescado2 {
+        grid-area: dos;
+        color: white;
+        font-size: 15px;
+        padding-bottom: 30px;
+        margin-right: 35%;
+        width: 110%;
+        margin-bottom: 10%;
+    }
+    .cajaPescado3 {
+        grid-area: tres;
+        color: white;
+        font-size: 15px;
+        padding-bottom: 15px;
+        margin-right: 35%;
+        width: 110%;
+    }
+    .texto {
+        text-overflow: clip;
+        height: 300px;
+    }
+    .texto2 {
+        margin-top: 70px;
+        height: 300px;
+    }
+    .texto3 {
+        margin-top: 70px;
+    }
+    /* postres*/
+    .containerPostres {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .menuPostres h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .menuPostres p {
+        font-size: 11px;
+        font-style: italic
+    }
+    .menuPostres {
+        display: flow-root;
+        margin: 0 20%;
+    }
+    .postre1 {
+        width: 110%;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .postre2 {
+        width: 110%;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .postre3 {
+        width: 110%;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .row {
+        column-count: 1;
+    }
+    .centrarGaleriatexto {
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .centraGaleriarexto h3 {
+        font-size: 13px;
+    }
+    .flex {
+        padding-top: 50px;
+        display: block;
+    }
+    .visitanos {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif !important;
+        color: white;
+        width: 200px;
+        height: 100%;
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form {
+        height: 20%;
+    }
+    .cajaImagen {
+        font-family: 'Open Sans', sans-serif !important;
+        background-image: url(img/imagen\ 1.jpg);
+        width: 200px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 5px;
+        opacity: 0.6;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+    .cajaForm {
+        width: 100%;
+    }
+    .footer {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menuTitulos {
+        font-size: 3%;
         padding-left: auto;
         padding-right: auto;
         padding-left: 10%;
