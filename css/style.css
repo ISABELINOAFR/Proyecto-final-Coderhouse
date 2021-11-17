@@ -968,6 +968,12 @@ h2 {
     .cajaForm {
         width: 100%;
     }
+    .submitBottom {
+        width: 90%;
+    }
+    .resetBottom {
+        width: 90%;
+    }
     .footer {
         color: white;
         text-align: center;
