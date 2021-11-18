@@ -237,8 +237,16 @@ section h1 {
     margin-left: 10%;
 }
 
+.instaUno:hover {
+    filter: saturate(180%);
+}
+
 .instaUno {
     padding: 50px;
+}
+
+.instaDos:hover {
+    filter: saturate(180%);
 }
 
 .instaDos {
@@ -309,6 +317,15 @@ h2 {
 
 
 /* Reserva de Mesa*/
+
+.cajaReserva:hover .reservaImagen {
+    -webkit-transform: scale(1.1.5);
+    transform: scale(1.2);
+}
+
+.cajaReserva {
+    overflow: hidden;
+}
 
 .reservaImagen {
     background-image: url(img/mesa\.jpg);
@@ -384,8 +401,7 @@ h2 {
 }
 
 .row:hover .picada {
-    -webkit-transform: scale(.9);
-    transform: scale(.9);
+    filter: grayscale(80%);
 }
 
 .row {
@@ -1086,19 +1102,15 @@ h2 {
         padding-top: 20%;
     }
     .sectionMenu {
-        margin: 0% 10%;
+        margin: 1% 1%;
         column-count: 3;
         text-align: justify center;
-        width: 80%;
-        font-size: 10px;
+        width: 98%;
         background-color: grey;
         color: black;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
-        font-size: 5px;
-    }
-    .eventoVideos {
-        width: 100%;
+        font-size: 9px;
     }
     .listasMenu {
         width: 100%;
@@ -1213,6 +1225,9 @@ h2 {
     .texto3 {
         margin-top: 70px;
     }
+    .picada {
+        width: 100%;
+    }
     /* postres*/
     .containerPostres {
         padding-top: 0%;
@@ -1314,20 +1329,27 @@ h2 {
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    .eventoVideos {
-        width: 90%;
-    }
     .eventoTexto {
-        text-align: justify;
-        font-size: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        text-align: center;
+        font-size: 74%;
+        padding-left: 26%;
+        padding-right: 0%;
+    }
+    .eventoTexto h3 {
+        font-size: 130%;
     }
     .textoShow {
-        text-align: justify;
-        font-size: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        text-align: center;
+        font-size: 74%;
+        padding-left: 26%;
+        padding-right: 0%;
+    }
+    .textoShow h3 {
+        font-size: 130%;
+    }
+    .eventoVideos iframe {
+        width: 100%;
+        margin-left: 5%;
     }
     .tablas {
         display: none;
@@ -1369,6 +1391,6 @@ h2 {
         font-size: .6rem;
     }
     .modal-dialog {
-        padding-top: 100px;
+        padding-top: 37px;
     }
 }
