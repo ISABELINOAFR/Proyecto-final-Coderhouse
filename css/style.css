@@ -1042,6 +1042,13 @@ h2 {
 }
 
 @media only screen and (max-width:320px) {
+    nav ul li {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1%;
+    }
+    .ul li {
+        font-size: 1%;
+    }
     div h2 {
         display: none;
     }
@@ -1093,13 +1100,16 @@ h2 {
         justify-content: space-evenly;
         margin-left: 0%;
         text-decoration: none !important;
+        display: grid;
     }
-    ol,
-    ul {
-        padding: 0%;
+    ol ul {
+        padding: -1%;
+    }
+    .proDuctos {
+        font-size: 60%;
     }
     nav ul li {
-        font-size: 18px;
+        font-size: 80%;
     }
     .myBotton {
         border-radius: 12px;
