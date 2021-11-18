@@ -96,7 +96,7 @@ nav {
 .listasMenu {
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
     text-decoration: none !important;
