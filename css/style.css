@@ -1,1396 +1,1321 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-p {
-    margin-bottom: 0;
-}
-
-body {
-    background: black;
-}
-
-hr {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    border-width: 1px;
-}
-
-.footer {
-    color: white;
-    text-align: center;
-    padding: top 10px;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 4%;
-    background-image: linear-gradient(to top, rgb(155, 119, 51), black);
-}
-
-
-/* NAV LOGO */
-
-.tituloLaparrillada {
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.titulo {
-    animation-duration: 2s;
-    animation-name: slidein;
-    text-align: center;
-    text-decoration: none;
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 60%;
-        width: 150%
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-.logo {
-    width: 65%;
-    margin-left: 20%;
-    text-decoration: none !important;
-}
-
-nav ul li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 100;
-    letter-spacing: 0.4rem;
-    margin-top: 0%;
-}
-
-h3 {
-    color: white;
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-
-/* Menu*/
-
-nav {
-    background-color: black;
-    padding: 5px;
-    /* flex box menu*/
-}
-
-.listasMenu {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: auto;
-    flex-wrap: wrap;
-    text-decoration: none !important;
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-.listasMenu li {
-    display: inline;
-    margin: 0 2.5%;
-    text-decoration: none !important;
-}
-
-.prodUctos {
-    position: relative;
-    text-decoration: none !important;
-}
-
-.subMenu {
-    display: none;
-    position: absolute;
-    right: 0;
-    list-style: none;
-    margin: 5;
-    padding: 8px;
-    color: rgb(131, 111, 80);
-    background-color: rgb(24, 23, 21);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.subMenu li {
-    color: burlywood;
-    display: block;
-    margin: 5px 0;
-    font-size: 20px;
-}
-
-.linkActive {
-    color: white;
-}
-
-.prodUctos:hover .subMenu {
-    display: block !important;
-}
-
-a.linkActive:hover {
-    color: rgb(131, 111, 80);
-}
-
-
-/* IMAGENES CENTRALES CARROUSEL*/
-
-.imagenCentral {
-    text-align: center;
-    size: 60%;
-}
-
-.claseMail {
-    font-size: 1rem;
-}
-
-
-/* MENU BOTON ONLINE */
-
-.myBotton {
-    border-radius: 20px;
-    border: 1px solid #dcdcdc;
-    cursor: pointer;
-    color: white;
-    font-family: 'Open Sans', sans-serif !important;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 8px 26px;
-    text-decoration: none;
-}
-
-a.myBotton:hover {
-    color: rgb(131, 111, 80);
-}
-
-.textoCentral {
-    text-align: center;
-    color: white;
-    font-family: 'Open Sans', sans-serif !important;
-    padding-left: 25%;
-    font-size: 20px;
-    padding-right: 25%;
-}
-
-.sectionMenu {
-    column-count: 3;
-    text-align: justify center;
-    width: 53%;
-    font-size: 17px;
-    background-color: grey;
-    color: black;
-    list-style: none;
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: 4vh 24vw;
-    border-radius: 10%;
-}
-
-.menuTitulos {
-    padding-left: 24%;
-    padding-top: 5%;
-}
-
-.listaMenu {
-    margin-left: 20px;
-}
-
-
-/* REDES SOCIALES*/
-
-.socialMedia {
-    padding-bottom: 10px;
-    background-color: white;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-section h1 {
-    color: black;
-}
-
-.socialMediaIcono {
-    text-align: center;
-    font-size: 50px;
-}
-
-.fotosInstagram {
-    display: grid;
-    width: 80%;
-    grid-template-areas: "uno dos";
-    grid-template-columns: 2;
-    margin-left: 10%;
-}
-
-.instaUno:hover {
-    filter: saturate(180%);
-}
-
-.instaUno {
-    padding: 50px;
-}
-
-.instaDos:hover {
-    filter: saturate(180%);
-}
-
-.instaDos {
-    padding: 50px;
-}
-
-.contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-left: 130px;
-    margin-top: 200px;
-}
-
-
-/* COMENTARIOS*/
-
-.bannerComentarios {
-    background-color: grey;
-    padding: 1rem;
-    height: 15rem;
-}
-
-
-/* otro ejemplo flexbox con textos*/
-
-.comentariosClientes {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-areas: "uno dos tres ";
-    grid-template-rows: 1;
-    grid-template-columns: 1;
-    grid-column-gap: 100px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.caja1 {
-    grid-area: uno;
-    color: white;
-    background-color: rgb(71, 55, 25);
-    padding: 20px;
-}
-
-.caja2 {
-    grid-area: dos;
-    color: white;
-    background-color: rgb(71, 55, 25);
-    padding: 20px;
-}
-
-.caja3 {
-    grid-area: tres;
-    color: white;
-    background-color: rgb(71, 55, 25);
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 0.4rem;
-    margin-top: 0%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-/* Reserva de Mesa*/
-
-.cajaReserva:hover .reservaImagen {
-    -webkit-transform: scale(1.1.5);
-    transform: scale(1.2);
-}
-
-.cajaReserva {
-    overflow: hidden;
-}
-
-.reservaImagen {
-    background-image: url(img/mesa\.jpg);
-    background-repeat: no-repeat;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 24.5%;
-    margin-right: 0;
-    width: 53%;
-}
-
-.cajaReserva {
-    width: 100%;
-}
-
-.reservaForm {
-    font-family: 'Open Sans', sans-serif;
-    width: 30%;
-    margin-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.submitBottom {
-    width: 80%;
-}
-
-.resetBottom {
-    width: 80%;
-}
-
-.rectanguloDerecha {
-    color: grey;
-}
-
-
-/* EVENTOS*/
-
-.tablas {
-    color: white;
-    width: 50%;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
-    border: 1px solid white;
-}
-
-.textoShow {
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    list-style: none;
-    width: 69%;
-    padding-left: 31.5%;
-}
-
-.eventoTexto {
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    list-style: none;
-    width: 69%;
-    padding-left: 31.5%;
-}
-
-.eventoVideos {
-    text-align: center;
-}
-
-.row:hover .picada {
-    filter: grayscale(80%);
-}
-
-.row {
-    overflow: hidden;
-}
-
-.galeria {
-    text-align: center;
-}
-
-.centrarGaleriatexto {
-    font-size: 30px;
-    padding-bottom: 50px;
-}
-
-.row {
-    column-count: 1;
-    column-gap: 6px;
-    width: 75%;
-    margin-left: 13%;
-}
-
-.fa-whatsapp {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 30px;
-    background: #0df053;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0px 1px 10px rgba ( 0, 0, 0, .3);
-    z-index: 100;
-}
-
-
-/* FORMULARIO */
-
-.formularioContacto div {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    padding-left: 20%;
-}
-
-.contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-left: 130px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-/* ejemplo box modeling*/
-
-.cajablanca {
-    background-color: white;
-    padding: 30px;
-    width: 150px;
-    height: 30px;
-    position: fixed;
-    /* entiendo que en este ejemplo podria haber usado en el menu para
- que quede estatico al mover la barra, pero como la mia se mueve no lo utilice*/
-}
-
-.cajaroja {
-    background-color: red;
-    padding: 30px;
-    width: 150px;
-    height: 150px;
-}
-
-.cajaverde {
-    background-color: green;
-    padding: 30px;
-    width: 150px;
-    height: 150px;
-}
-
-
-/* UBICACION Y CONTACTO*/
-
-.cajaImagen {
-    font-family: 'Open Sans', sans-serif !important;
-    background-image: url(img/imagen\ 1.jpg);
-    width: 300px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 0rem;
-    opacity: 0.6;
-    margin-bottom: 10px;
-}
-
-.form {
-    height: 100px;
-    margin: -3%;
-}
-
-.flex {
-    padding-top: 50px;
-    display: flex;
-    border: 0;
-    justify-content: space-between;
-    justify-content: space-evenly;
-}
-
-.visitanos {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif !important;
-    color: white;
-    width: 300px;
-    height: 100%;
-    padding-top: 0%;
-}
-
-.map {
-    padding-top: 0 !important;
-}
-
-
-/* GRIDS POR AREAS PARA MENU PESCADOS*/
-
-.containerPescados {
-    padding-top: 50px;
-}
-
-.menuPescados {
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 24%;
-    display: grid;
-    grid-template-areas: "uno dos tres ";
-    grid-template-rows: 1;
-    grid-template-columns: 1;
-    grid-column-gap: 5px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-
-.menuPescados p {
-    font-size: 15px;
-    font-style: italic;
-}
-
-.cajaPescado1 {
-    grid-area: uno;
-    width: 75%;
-}
-
-.cajaPescado2 {
-    grid-area: dos;
-    color: white;
-    width: 75%;
-}
-
-.cajaPescado3 {
-    grid-area: tres;
-    color: white;
-    width: 75%;
-}
-
-
-/* GRIDS POR AREAS PARA MENU POSTRES*/
-
-.containerPostres {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.menuPostres {
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 24%;
-    display: grid;
-    grid-template-areas: "uno dos tres ";
-    grid-template-rows: 1;
-    grid-template-columns: 1;
-    grid-column-gap: 5px;
-}
-
-.menuPostres p {
-    font-size: 15px;
-    font-style: italic;
-}
-
-.postre1 {
-    grid-area: uno;
-    color: white;
-    width: 70%;
-}
-
-.postre2 {
-    grid-area: dos;
-    color: white;
-    width: 70%;
-}
-
-.postre3 {
-    grid-area: tres;
-    color: white;
-    width: 70%;
-}
-
-.textoContacto {
-    font-size: 30px;
-}
-
-.card-group {
-    width: 80%;
-    padding-left: 20%;
-    padding-right: auto;
-}
-
-.card {
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-.containerComentarios {
-    width: 74%;
-    margin: auto;
-    display: grid;
-    grid-template-areas: "seis dos tres " "cuatro cinco uno ";
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-    margin-bottom: 70px;
-}
-
-.texto1 {
-    grid-area: uno;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.texto2 {
-    grid-area: dos;
-    background-color: white;
-    padding: 10px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.texto3 {
-    grid-area: tres;
-    background-color: white;
-    padding: 10px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.texto4 {
-    grid-area: cuatro;
-    background-color: white;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.texto5 {
-    grid-area: cinco;
-    background-color: white;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.texto6 {
-    grid-area: seis;
-    background-color: white;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-/* CAROUSEL BOOTSTRAP*/
-
-.carousel-item {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.botonMenu {
-    margin-top: 100px;
-}
-
-.tamanoFoto {
-    width: 100%;
-    height: 500px;
-}
-
-.cupon {
-    text-align: center;
-    padding-bottom: 15%;
-}
-
-.modal-dialog {
-    padding-top: 200px;
-}
-
-.modal-header {
-    padding-top: 20px;
-    background-color: grey;
-}
-
-.modal-footer {
-    background-color: grey;
-}
-
-.modal-title {
-    color: orange;
-}
-
-.modal-body {
-    color: orange;
-    font-size: 200%;
-    background-color: grey;
-    border-color: orange;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.cajadeContacto {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.cajaContacto {
-    display: flex;
-    width: 150%;
-    margin-left: 20%;
-}
-
-.cajaUno {
-    width: 20%;
-    padding-top: 100px;
-    text-align: center;
-}
-
-.cajaDos {
-    width: 20%;
-    color: white;
-    text-align: center;
-}
-
-.cajaNueva {
-    column-count: 3;
-    width: 80%;
-    padding-top: 100px;
-    padding-left: 25%;
-    padding-right: auto;
-    text-align: center;
-    height: 50%;
-    display: inline-flex;
-    column-gap: 20%;
-}
-
-.informacion {
-    display: inline;
-    color: white;
-}
-
-.informacionUbucacion {
-    color: white;
-}
-
-@media only screen and (max-width:768px) {
-    div h2 {
-        display: none;
-    }
-    .containerComentarios {
-        display: none !important;
-    }
-    .textoContacto {
-        font-size: 20px;
-        color: white;
-    }
-    .reservaImagen {
-        width: 100%;
-        margin-left: 0;
-    }
-    .cajaReserva {
-        padding-left: 0px;
-    }
-    .reservaForm {
-        padding-left: 5%;
-        font-size: 15px;
-        padding-top: 0%;
-    }
-    .cupon {
-        padding-top: 20%;
-    }
-    .sectionMenu {
-        margin: 0% 10%;
-        column-count: 3;
-        text-align: justify center;
-        width: 80%;
-        font-size: 10px;
-        background-color: grey;
-        color: black;
-        list-style: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 15px;
-    }
-    .listasMenu {
-        width: 100%;
-        justify-content: space-evenly;
-        margin-left: 0%;
-        text-decoration: none !important;
-    }
-    ol,
-    ul {
-        padding: 0%;
-    }
-    nav ul li {
-        font-size: 18px;
-    }
-    .myBotton {
-        border-radius: 12px;
-        font-size: 12px;
-        font-weight: bold;
-        padding: 4px 20px;
-    }
-    .fotosInstagram {
-        display: none;
-    }
-    .textoCentral {
-        text-align: justify;
-        margin-left: 15%;
-        margin-right: 15%;
-        font-size: 15px;
-    }
-    .logo {
-        width: 100px;
-        margin-left: 30%;
-    }
-    .titulo {
-        color: white;
-        text-align: center;
-        font-size: 25px;
-        padding-left: auto;
-        text-decoration: none !important;
-        margin-left: 0;
-    }
-    .tituloLaparrillada {
-        font-size: 30px;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .map {
-        padding-top: 0;
-    }
-    /* menu pescados*/
-    .containerPescados {
-        padding-top: unset;
-    }
-    .menuPescados {
-        display: flow-root;
-        margin: 0 37%;
-    }
-    .menuPescados h3 {
+    * {
+        padding: 0;
         margin: 0;
-        font-size: 18px;
     }
-    .menuPescados p {
-        font-size: 11px;
-        font-style: italic;
+    
+    p {
+        margin-bottom: 0;
     }
-    .cajaPescado1 {
-        grid-area: uno;
-        padding-bottom: 30px;
-        margin-right: 35%;
-        width: 45%;
-        margin-bottom: 10%;
+    
+    body {
+        background: black;
     }
-    .cajaPescado2 {
-        grid-area: dos;
-        color: white;
-        font-size: 15px;
-        padding-bottom: 30px;
-        margin-right: 35%;
-        width: 45%;
-        margin-bottom: 10%;
-    }
-    .cajaPescado3 {
-        grid-area: tres;
-        color: white;
-        font-size: 15px;
-        padding-bottom: 15px;
-        margin-right: 35%;
-        width: 45%;
-    }
-    .texto {
-        text-overflow: clip;
-        height: 300px;
-    }
-    .texto2 {
-        margin-top: 70px;
-        height: 300px;
-    }
-    .texto3 {
-        margin-top: 70px;
-    }
-    /* postres*/
-    .containerPostres {
-        padding-top: 0%;
-        margin-top: 0%;
-    }
-    .menuPostres h3 {
-        margin: 0;
-        font-size: 18px;
-    }
-    .menuPostres p {
-        font-size: 11px;
-        font-style: italic
-    }
-    .menuPostres {
-        display: flow-root;
-        margin: 0 37%;
-    }
-    .postre1 {
-        width: 45%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .postre2 {
-        width: 45%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .postre3 {
-        width: 45%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .row {
-        column-count: 1;
-    }
-    .centrarGaleriatexto {
-        margin-right: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .centraGaleriarexto h3 {
-        font-size: 13px;
-    }
-    .flex {
-        padding-top: 50px;
-        display: block;
-    }
-    .visitanos {
-        text-align: center;
-        font-family: 'Open Sans', sans-serif !important;
-        color: white;
-        width: 200px;
-        height: 100%;
-        padding-top: 10%;
+    
+    hr {
         margin-left: auto;
         margin-right: auto;
+        width: 60%;
+        border-width: 1px;
     }
-    .form {
-        height: 20%;
-    }
-    .cajaImagen {
-        font-family: 'Open Sans', sans-serif !important;
-        background-image: url(img/imagen\ 1.jpg);
-        width: 200px;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        text-align: center;
-        padding-top: 5px;
-        opacity: 0.6;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 10px;
-    }
-    .cajaForm {
-        width: 100%;
-    }
-    .submitBottom {
-        width: 90%;
-    }
-    .resetBottom {
-        width: 90%;
-    }
+    
     .footer {
         color: white;
         text-align: center;
-        padding-top: 20px;
+        padding: top 10px;
         font-family: 'Open Sans', sans-serif;
+        padding-top: 4%;
+        background-image: linear-gradient(to top, rgb(155, 119, 51), black);
     }
-    .menuTitulos {
-        font-size: 15px;
-        padding-left: auto;
-        padding-right: auto;
-        padding-left: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .eventoVideos {
-        width: 90%;
-    }
-    .eventoTexto {
-        text-align: center;
-    }
-    .textoShow {
-        text-align: center;
-    }
-    .tablas {
-        display: none;
-    }
-    .cajadeContacto {
-        text-align: center;
-        padding-top: 0%;
-    }
-    .cajaContacto {
-        display: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .cajaUno {
-        text-align: center;
-        display: none;
-    }
-    .cajaDos {
-        text-align: center;
-    }
-    .cajaNueva {
-        padding-left: 5%;
-        padding-right: 5%;
-        column-gap: 5px;
-    }
-    .informacionUbucacion {
+    /* NAV LOGO */
+    
+    .tituloLaparrillada {
         color: white;
+        font-size: 3rem;
+        text-align: center;
     }
-    .containerPostres {
-        margin-right: 0%;
+    
+    .titulo {
+        animation-duration: 2s;
+        animation-name: slidein;
+        text-align: center;
+        text-decoration: none;
     }
-    div div div p {
-        font-size: .9rem;
+    
+    @keyframes slidein {
+        from {
+            margin-left: 60%;
+            width: 150%
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
     }
-    .hideComentarios {
-        display: none;
+    
+    .logo {
+        width: 65%;
+        margin-left: 20%;
+        text-decoration: none !important;
     }
-    .claseMail {
-        font-size: .6rem;
-    }
-    .modal-dialog {
-        padding-top: 100px;
-    }
-}
-
-@media only screen and (max-width:320px) {
+    
     nav ul li {
         font-family: 'Open Sans', sans-serif;
-        font-size: 1%;
+        font-size: 25px;
     }
-    .ul li {
-        font-size: 1%;
+    
+    h1 {
+        color: white;
+        text-align: center;
     }
-    div h2 {
+    
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 0.4rem;
+        margin-top: 0%;
+    }
+    
+    h3 {
+        color: white;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+    /* Menu*/
+    
+    nav {
+        background-color: black;
+        padding: 5px;
+        /* flex box menu*/
+    }
+    
+    .listasMenu {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+    
+    .listasMenu li {
+        display: inline;
+        margin: 0 2.5%;
+        text-decoration: none !important;
+    }
+    
+    .prodUctos {
+        position: relative;
+        text-decoration: none !important;
+    }
+    
+    .subMenu {
         display: none;
+        position: absolute;
+        right: 0;
+        list-style: none;
+        margin: 5;
+        padding: 8px;
+        color: rgb(131, 111, 80);
+        background-color: rgb(24, 23, 21);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
-    .containerComentarios {
-        display: none !important;
-    }
-    .textoContacto {
+    
+    .subMenu li {
+        color: burlywood;
+        display: block;
+        margin: 5px 0;
         font-size: 20px;
+    }
+    
+    .linkActive {
         color: white;
     }
+    
+    .prodUctos:hover .subMenu {
+        display: block !important;
+    }
+    
+    a.linkActive:hover {
+        color: rgb(131, 111, 80);
+    }
+    /* IMAGENES CENTRALES CARROUSEL*/
+    
+    .imagenCentral {
+        text-align: center;
+        size: 60%;
+    }
+    
+    .claseMail {
+        font-size: 1rem;
+    }
+    /* MENU BOTON ONLINE */
+    
+    .myBotton {
+        border-radius: 20px;
+        border: 1px solid #dcdcdc;
+        cursor: pointer;
+        color: white;
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 8px 26px;
+        text-decoration: none;
+    }
+    
+    a.myBotton:hover {
+        color: rgb(131, 111, 80);
+    }
+    
+    .textoCentral {
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif !important;
+        padding-left: 25%;
+        font-size: 20px;
+        padding-right: 25%;
+    }
+    
+    .sectionMenu {
+        column-count: 3;
+        text-align: justify center;
+        width: 82%;
+        font-size: 17px;
+        background-color: rgb(167, 164, 164);
+        color: black;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin: 4vh 24vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+    
+    .menuTitulos {
+        padding-left: 9%;
+        padding-top: 10%;
+    }
+    
+    .listaMenu {
+        margin-left: 20%;
+    }
+    /* REDES SOCIALES*/
+    
+    .socialMedia {
+        padding-bottom: 10px;
+        background-color: white;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+    
+    section h1 {
+        color: black;
+    }
+    
+    .socialMediaIcono {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .fotosInstagram {
+        display: grid;
+        width: 80%;
+        grid-template-areas: "uno dos";
+        grid-template-columns: 2;
+        margin-left: 10%;
+    }
+    
+    .instaUno:hover {
+        filter: saturate(180%);
+    }
+    
+    .instaUno {
+        padding: 50px;
+    }
+    
+    .instaDos:hover {
+        filter: saturate(180%);
+    }
+    
+    .instaDos {
+        padding: 50px;
+    }
+    
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-left: 130px;
+        margin-top: 200px;
+    }
+    /* COMENTARIOS*/
+    
+    .bannerComentarios {
+        background-color: grey;
+        padding: 1rem;
+        height: 15rem;
+    }
+    /* otro ejemplo flexbox con textos*/
+    
+    .comentariosClientes {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: "uno dos tres ";
+        grid-template-rows: 1;
+        grid-template-columns: 1;
+        grid-column-gap: 100px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .caja1 {
+        grid-area: uno;
+        color: white;
+        background-color: rgb(71, 55, 25);
+        padding: 20px;
+    }
+    
+    .caja2 {
+        grid-area: dos;
+        color: white;
+        background-color: rgb(71, 55, 25);
+        padding: 20px;
+    }
+    
+    .caja3 {
+        grid-area: tres;
+        color: white;
+        background-color: rgb(71, 55, 25);
+        padding: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.4rem;
+        margin-top: 0%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* Reserva de Mesa*/
+    
     .reservaImagen {
-        width: 100%;
-        margin-left: 0;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 24.5%;
+        margin-right: 0;
+        width: 53%;
+        opacity: 0.5;
+        background-image: linear-gradient(to left, rgb(155, 119, 51), black);
     }
+    
     .cajaReserva {
-        padding-left: 0px;
+        width: 100%;
     }
+    
     .reservaForm {
-        padding-left: 15%;
-        font-size: 70%;
+        font-family: 'Open Sans', sans-serif;
+        width: 30%;
+        margin-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .submitBottom {
+        width: 80%;
+    }
+    
+    .resetBottom {
+        width: 80%;
+    }
+    
+    .rectanguloDerecha {
+        color: grey;
+    }
+    /* EVENTOS*/
+    
+    .tablas {
+        color: white;
+        width: 50%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+        border: 1px solid white;
+    }
+    
+    .textoShow {
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        list-style: none;
+        width: 69%;
+        padding-left: 31.5%;
+    }
+    
+    .eventoTexto {
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        list-style: none;
+        width: 69%;
+        padding-left: 31.5%;
+    }
+    
+    .eventoVideos {
+        text-align: center;
+    }
+    
+    .fa-whatsapp {
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba ( 0, 0, 0, .3);
+        z-index: 100;
+    }
+    /* FORMULARIO */
+    
+    .formularioContacto div {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding-left: 20%;
+    }
+    
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-left: 130px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* ejemplo box modeling*/
+    
+    .cajablanca {
+        background-color: white;
+        padding: 30px;
+        width: 150px;
+        height: 30px;
+        position: fixed;
+        /* entiendo que en este ejemplo podria haber usado en el menu para
+ que quede estatico al mover la barra, pero como la mia se mueve no lo utilice*/
+    }
+    
+    .cajaroja {
+        background-color: red;
+        padding: 30px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .cajaverde {
+        background-color: green;
+        padding: 30px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .form {
+        height: 100px;
+        margin: -3%;
+    }
+    
+    .map {
+        padding-top: 0 !important;
+    }
+    /* GRIDS POR AREAS PARA MENU PESCADOS*/
+    
+    .containerPescados {
+        padding-top: 50 px;
+        padding-bottom: 50 px;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    .menuPescados {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-areas: "uno dos tres ";
+        grid-template-rows: 1;
+        grid-template-columns: 1;
+        grid-column-gap: 5px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+    
+    .menuPescados p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    .menuPescados h3 {
+        margin: 0;
+        font-size: 150%;
         padding-top: 5%;
     }
-    .submitBottom {
-        width: 240%;
-    }
-    .resetBottom {
-        width: 240%;
-    }
-    w .cupon {
-        padding-top: 20%;
-    }
-    .sectionMenu {
-        margin: 1% 1%;
-        column-count: 3;
-        text-align: justify center;
-        width: 98%;
-        background-color: grey;
-        color: black;
-        list-style: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 9px;
-    }
-    .listasMenu {
-        width: 100%;
-        justify-content: space-evenly;
-        margin-left: 0%;
-        text-decoration: none !important;
-        display: grid;
-    }
-    ul listasMenu {
-        width: 100%;
-    }
-    .subMenu li {
-        font-size: 80%;
-    }
-    B .su ol ul {
-        padding: -1%;
-    }
-    .proDuctos {
-        font-size: 60%;
-    }
-    nav ul li {
-        font-size: 80%;
-    }
-    .myBotton {
-        border-radius: 12px;
-        font-size: 12px;
-        font-weight: bold;
-        padding: 4px 20px;
-    }
-    .fotosInstagram {
-        display: none;
-    }
-    .socialMedia h1 {
-        font-size: 100%;
-    }
-    .socialMediaIcono {
-        font-size: 200%;
-    }
-    .textoCentral {
-        text-align: initial;
-        margin-left: -5%;
-        margin-right: -9%;
-        font-size: 63%;
-    }
-    .logo {
-        width: 100px;
-        margin-left: 30%;
-    }
-    .titulo {
-        color: white;
-        text-align: center;
-        font-size: 25px;
-        padding-left: auto;
-        text-decoration: none !important;
-        margin-left: 0;
-    }
-    .tituloLaparrillada {
-        font-size: 30px;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .map {
-        padding-top: 0;
-    }
-    /* menu pescados*/
-    .containerPescados {
-        padding-top: unset;
-    }
-    .menuPescados {
-        display: flow-root;
-        margin: 0 20%;
-    }
-    .menuPescados h3 {
-        margin: 0;
-        font-size: 18px;
-    }
-    .menuPescados p {
-        font-size: 11px;
-        font-style: italic;
-    }
+    
     .cajaPescado1 {
         grid-area: uno;
-        padding-bottom: 30px;
-        margin-right: 35%;
-        width: 110%;
-        margin-bottom: 10%;
+        width: 100%;
+        padding-right: 5%;
     }
+    
     .cajaPescado2 {
         grid-area: dos;
         color: white;
-        font-size: 15px;
-        padding-bottom: 30px;
-        margin-right: 35%;
-        width: 110%;
-        margin-bottom: 10%;
+        width: 100%;
     }
+    
     .cajaPescado3 {
         grid-area: tres;
         color: white;
-        font-size: 15px;
-        padding-bottom: 15px;
-        margin-right: 35%;
-        width: 110%;
-    }
-    .texto {
-        text-overflow: clip;
-        height: 300px;
-    }
-    .texto2 {
-        margin-top: 70px;
-        height: 300px;
-    }
-    .texto3 {
-        margin-top: 70px;
-    }
-    .picada {
         width: 100%;
+        padding-left: 5%;
     }
-    /* postres*/
+    /* GRIDS POR AREAS PARA MENU POSTRES*/
+    
     .containerPostres {
-        padding-top: 0%;
-        margin-top: 0%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 9%;
+        padding-right: 9%;
     }
+    
     .menuPostres h3 {
         margin: 0;
-        font-size: 18px;
+        font-size: 150%;
+        padding-top: 5%;
     }
-    .menuPostres p {
-        font-size: 11px;
-        font-style: italic
-    }
+    
     .menuPostres {
-        display: flow-root;
-        margin: 0 20%;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-areas: "uno dos tres ";
+        grid-template-rows: 1;
+        grid-template-columns: 1;
     }
+    
+    .menuPostres p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
     .postre1 {
-        width: 110%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .postre2 {
-        width: 110%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .postre3 {
-        width: 110%;
-        margin-top: 70px;
-        font-size: 15px;
-    }
-    .row {
-        column-count: 1;
-    }
-    .centrarGaleriatexto {
-        margin-right: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .centraGaleriarexto h3 {
-        font-size: 13px;
-    }
-    .flex {
-        padding-top: 50px;
-        display: block;
-    }
-    .visitanos {
-        text-align: center;
-        font-family: 'Open Sans', sans-serif !important;
+        grid-area: uno;
         color: white;
         width: 100%;
-        height: 100%;
-        padding-top: 10%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .centrarVisitanos {
-        width: 100%;
-    }
-    .form {
-        height: 20%;
-        width: 50%;
-        margin-left: 20%;
-        padding-left: 6%;
-    }
-    .cajaImagen {
-        font-family: 'Open Sans', sans-serif !important;
-        background-image: url(img/imagen\ 1.jpg);
-        width: 80%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        text-align: center;
-        padding-top: 5px;
-        opacity: 0.6;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 10px;
-        padding-bottom: 5%;
-    }
-    .cajaForm {
-        width: 100%;
-    }
-    .footer {
-        color: white;
-        text-align: center;
-        padding-top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 65%;
-    }
-    .footer p {
-        font-size: 100%;
-    }
-    .menuTitulos {
-        font-size: 3%;
-        padding-left: auto;
-        padding-right: auto;
-        padding-left: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .eventoTexto {
-        text-align: center;
-        font-size: 74%;
-        padding-left: 26%;
-        padding-right: 0%;
-    }
-    .eventoTexto h3 {
-        font-size: 130%;
-    }
-    .textoShow {
-        text-align: center;
-        font-size: 74%;
-        padding-left: 26%;
-        padding-right: 0%;
-    }
-    .textoShow h3 {
-        font-size: 130%;
-    }
-    .eventoVideos iframe {
-        width: 100%;
-        margin-left: 5%;
-    }
-    .tablas {
-        display: none;
-    }
-    .cajadeContacto {
-        text-align: center;
-        padding-top: 0%;
-    }
-    .cajaContacto {
-        display: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .cajaUno {
-        text-align: center;
-        display: none;
-    }
-    .cajaDos {
-        text-align: center;
-    }
-    .cajaNueva {
-        padding-left: 5%;
         padding-right: 5%;
-        column-gap: 5px;
     }
+    
+    .postre2 {
+        grid-area: dos;
+        color: white;
+        width: 100%;
+    }
+    
+    .postre3 {
+        grid-area: tres;
+        color: white;
+        width: 100%;
+        padding-left: 5%;
+    }
+    /*galeria picada*/
+    
+    .containerPicada {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    
+    .grillaPicada {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: "uno dos tres ";
+        grid-template-rows: 1;
+        grid-template-columns: 1;
+        grid-column-gap: 0%;
+        column-gap: 0%;
+    }
+    
+    .picada1 {
+        grid-area: uno;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .picada2 {
+        grid-area: dos;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .picada3 {
+        grid-area: tres;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .textoContacto {
+        font-size: 30px;
+    }
+    
+    .card-group {
+        width: 80%;
+        padding-left: 20%;
+        padding-right: auto;
+    }
+    
+    .card {
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .containerComentarios {
+        width: 74%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: "seis dos tres " "cuatro cinco uno ";
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        margin-bottom: 70px;
+    }
+    
+    .texto1 {
+        grid-area: uno;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .texto2 {
+        grid-area: dos;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .texto3 {
+        grid-area: tres;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .texto4 {
+        grid-area: cuatro;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .texto5 {
+        grid-area: cinco;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .texto6 {
+        grid-area: seis;
+        background-color: white;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* CAROUSEL BOOTSTRAP*/
+    
+    .carousel-item {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .botonMenu {
+        margin-top: 100px;
+    }
+    
+    .tamanoFoto {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .cupon {
+        text-align: center;
+        padding-bottom: 15%;
+    }
+    
+    .modal-dialog {
+        padding-top: 200px;
+    }
+    
+    .modal-header {
+        padding-top: 20px;
+        background-color: grey;
+    }
+    
+    .modal-footer {
+        background-color: grey;
+    }
+    
+    .modal-title {
+        color: orange;
+    }
+    
+    .modal-body {
+        color: orange;
+        font-size: 200%;
+        background-color: grey;
+        border-color: orange;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .cajadeContacto {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .cajaContacto {
+        display: flex;
+        width: 150%;
+        margin-left: 20%;
+    }
+    
+    .cajaUno {
+        width: 20%;
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .cajaDos {
+        width: 20%;
+        color: white;
+        text-align: center;
+    }
+    
+    .cajaNueva {
+        column-count: 3;
+        width: 80%;
+        padding-top: 100px;
+        padding-left: 25%;
+        padding-right: auto;
+        text-align: center;
+        height: 50%;
+        display: inline-flex;
+        column-gap: 20%;
+    }
+    
+    .informacion {
+        display: inline;
+        color: white;
+    }
+    
     .informacionUbucacion {
         color: white;
     }
-    .containerPostres {
-        margin-right: 0%;
+    
+    @media only screen and (max-width:768px) {
+        div h2 {
+            display: none;
+        }
+        .containerComentarios {
+            display: none !important;
+        }
+        .textoContacto {
+            font-size: 20px;
+            color: white;
+        }
+        .reservaImagen {
+            width: 100%;
+            margin-left: 0;
+        }
+        .cajaReserva {
+            padding-left: 0px;
+        }
+        .reservaForm {
+            padding-left: 5%;
+            font-size: 15px;
+            padding-top: 0%;
+        }
+        .cupon {
+            padding-top: 20%;
+        }
+        .sectionMenu {
+            margin: 0% 10%;
+            column-count: 3;
+            text-align: justify center;
+            width: 80%;
+            font-size: 10px;
+            background-color: grey;
+            color: black;
+            list-style: none;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+        }
+        .listasMenu {
+            width: 100%;
+            justify-content: space-evenly;
+            margin-left: 0%;
+            text-decoration: none !important;
+        }
+        ol,
+        ul {
+            padding: 0%;
+        }
+        nav ul li {
+            font-size: 18px;
+        }
+        .myBotton {
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 20px;
+        }
+        .fotosInstagram {
+            display: none;
+        }
+        .textoCentral {
+            text-align: justify;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: 15px;
+        }
+        .logo {
+            width: 100px;
+            margin-left: 30%;
+        }
+        .titulo {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding-left: auto;
+            text-decoration: none !important;
+            margin-left: 0;
+        }
+        .tituloLaparrillada {
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .map {
+            padding-top: 0;
+        }
+        /* menu pescados*/
+        .containerPescados {
+            padding-top: unset;
+        }
+        .menuPescados {
+            display: flow-root;
+            margin: 0 37%;
+        }
+        .menuPescados h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .menuPescados p {
+            font-size: 11px;
+            font-style: italic;
+        }
+        .cajaPescado1 {
+            grid-area: uno;
+            padding-bottom: 30px;
+            margin-right: 35%;
+            width: 45%;
+            margin-bottom: 10%;
+        }
+        .cajaPescado2 {
+            grid-area: dos;
+            color: white;
+            font-size: 15px;
+            padding-bottom: 30px;
+            margin-right: 35%;
+            width: 45%;
+            margin-bottom: 10%;
+        }
+        .cajaPescado3 {
+            grid-area: tres;
+            color: white;
+            font-size: 15px;
+            padding-bottom: 15px;
+            margin-right: 35%;
+            width: 45%;
+        }
+        .texto {
+            text-overflow: clip;
+            height: 300px;
+        }
+        .texto2 {
+            margin-top: 70px;
+            height: 300px;
+        }
+        .texto3 {
+            margin-top: 70px;
+        }
+        /* postres*/
+        .containerPostres {
+            padding-top: 0%;
+            margin-top: 0%;
+        }
+        .menuPostres h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .menuPostres p {
+            font-size: 11px;
+            font-style: italic
+        }
+        .menuPostres {
+            display: flow-root;
+            margin: 0 37%;
+        }
+        .postre1 {
+            width: 45%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .postre2 {
+            width: 45%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .postre3 {
+            width: 45%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .row {
+            column-count: 1;
+        }
+        .centraGaleriarexto h3 {
+            font-size: 13px;
+        }
+        .flex {
+            padding-top: 50px;
+            display: block;
+        }
+        .visitanos {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif !important;
+            color: white;
+            width: 200px;
+            height: 100%;
+            padding-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form {
+            height: 20%;
+        }
+        .cajaImagen {
+            font-family: 'Open Sans', sans-serif !important;
+            background-image: url(img/imagen\ 1.jpg);
+            width: 200px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 5px;
+            opacity: 0.6;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 10px;
+        }
+        .cajaForm {
+            width: 100%;
+        }
+        .submitBottom {
+            width: 90%;
+        }
+        .resetBottom {
+            width: 90%;
+        }
+        .footer {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .menuTitulos {
+            font-size: 15px;
+            padding-left: auto;
+            padding-right: auto;
+            padding-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .eventoVideos {
+            width: 90%;
+        }
+        .eventoTexto {
+            text-align: center;
+        }
+        .textoShow {
+            text-align: center;
+        }
+        .tablas {
+            display: none;
+        }
+        .cajadeContacto {
+            text-align: center;
+            padding-top: 0%;
+        }
+        .cajaContacto {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cajaUno {
+            text-align: center;
+            display: none;
+        }
+        .cajaDos {
+            text-align: center;
+        }
+        .cajaNueva {
+            padding-left: 5%;
+            padding-right: 5%;
+            column-gap: 5px;
+        }
+        .informacionUbucacion {
+            color: white;
+        }
+        .containerPostres {
+            margin-right: 0%;
+        }
+        div div div p {
+            font-size: .9rem;
+        }
+        .hideComentarios {
+            display: none;
+        }
+        .claseMail {
+            font-size: .6rem;
+        }
+        .modal-dialog {
+            padding-top: 100px;
+        }
     }
-    div div div p {
-        font-size: .9rem;
+    
+    @media only screen and (max-width:320px) {
+        nav ul li {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1%;
+        }
+        .ul li {
+            font-size: 1%;
+        }
+        div h2 {
+            display: none;
+        }
+        .containerComentarios {
+            display: none !important;
+        }
+        .textoContacto {
+            font-size: 20px;
+            color: white;
+        }
+        .reservaImagen {
+            width: 100%;
+            margin-left: 0;
+        }
+        .cajaReserva {
+            padding-left: 0px;
+        }
+        .reservaForm {
+            padding-left: 15%;
+            font-size: 70%;
+            padding-top: 5%;
+        }
+        .submitBottom {
+            width: 240%;
+        }
+        .resetBottom {
+            width: 240%;
+        }
+        w .cupon {
+            padding-top: 20%;
+        }
+        .sectionMenu {
+            margin: 1% 1%;
+            column-count: 3;
+            text-align: justify center;
+            width: 98%;
+            background-color: grey;
+            color: black;
+            list-style: none;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 9px;
+        }
+        .listasMenu {
+            width: 100%;
+            justify-content: space-evenly;
+            margin-left: 0%;
+            text-decoration: none !important;
+            display: grid;
+        }
+        ul listasMenu {
+            width: 100%;
+        }
+        .subMenu li {
+            font-size: 80%;
+        }
+        B .su ol ul {
+            padding: -1%;
+        }
+        .proDuctos {
+            font-size: 60%;
+        }
+        nav ul li {
+            font-size: 80%;
+        }
+        .myBotton {
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 20px;
+        }
+        .fotosInstagram {
+            display: none;
+        }
+        .socialMedia h1 {
+            font-size: 100%;
+        }
+        .socialMediaIcono {
+            font-size: 200%;
+        }
+        .textoCentral {
+            text-align: initial;
+            margin-left: -5%;
+            margin-right: -9%;
+            font-size: 63%;
+        }
+        .logo {
+            width: 100px;
+            margin-left: 30%;
+        }
+        .titulo {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding-left: auto;
+            text-decoration: none !important;
+            margin-left: 0;
+        }
+        .tituloLaparrillada {
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .map {
+            padding-top: 0;
+        }
+        /* menu pescados*/
+        .containerPescados {
+            padding-top: unset;
+        }
+        .menuPescados {
+            display: flow-root;
+            margin: 0 20%;
+        }
+        .menuPescados h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .menuPescados p {
+            font-size: 11px;
+            font-style: italic;
+        }
+        .cajaPescado1 {
+            grid-area: uno;
+            padding-bottom: 30px;
+            margin-right: 35%;
+            width: 110%;
+            margin-bottom: 10%;
+        }
+        .cajaPescado2 {
+            grid-area: dos;
+            color: white;
+            font-size: 15px;
+            padding-bottom: 30px;
+            margin-right: 35%;
+            width: 110%;
+            margin-bottom: 10%;
+        }
+        .cajaPescado3 {
+            grid-area: tres;
+            color: white;
+            font-size: 15px;
+            padding-bottom: 15px;
+            margin-right: 35%;
+            width: 110%;
+        }
+        .texto {
+            text-overflow: clip;
+            height: 300px;
+        }
+        .texto2 {
+            margin-top: 70px;
+            height: 300px;
+        }
+        .texto3 {
+            margin-top: 70px;
+        }
+        .picada {
+            width: 100%;
+        }
+        /* postres*/
+        .containerPostres {
+            padding-top: 0%;
+            margin-top: 0%;
+        }
+        .menuPostres h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .menuPostres p {
+            font-size: 11px;
+            font-style: italic
+        }
+        .menuPostres {
+            display: flow-root;
+            margin: 0 20%;
+        }
+        .postre1 {
+            width: 110%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .postre2 {
+            width: 110%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .postre3 {
+            width: 110%;
+            margin-top: 70px;
+            font-size: 15px;
+        }
+        .centrarGaleriatexto {
+            margin-right: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .centraGaleriarexto h3 {
+            font-size: 13px;
+        }
+        .form {
+            height: 20%;
+            width: 50%;
+            margin-left: 20%;
+            padding-left: 6%;
+        }
+        .cajaForm {
+            width: 100%;
+        }
+        .footer {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 65%;
+        }
+        .footer p {
+            font-size: 100%;
+        }
+        .menuTitulos {
+            font-size: 3%;
+            padding-left: auto;
+            padding-right: auto;
+            padding-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .eventoTexto {
+            text-align: center;
+            font-size: 74%;
+            padding-left: 26%;
+            padding-right: 0%;
+        }
+        .eventoTexto h3 {
+            font-size: 130%;
+        }
+        .textoShow {
+            text-align: center;
+            font-size: 74%;
+            padding-left: 26%;
+            padding-right: 0%;
+        }
+        .textoShow h3 {
+            font-size: 130%;
+        }
+        .eventoVideos iframe {
+            width: 100%;
+            margin-left: 5%;
+        }
+        .tablas {
+            display: none;
+        }
+        .cajadeContacto {
+            text-align: center;
+            padding-top: 0%;
+        }
+        .cajaContacto {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cajaUno {
+            text-align: center;
+            display: none;
+        }
+        .cajaDos {
+            text-align: center;
+        }
+        .cajaNueva {
+            padding-left: 5%;
+            padding-right: 5%;
+            column-gap: 5px;
+        }
+        .informacionUbucacion {
+            color: white;
+        }
+        .containerPostres {
+            margin-right: 0%;
+        }
+        div div div p {
+            font-size: .9rem;
+        }
+        .hideComentarios {
+            display: none;
+        }
+        .claseMail {
+            font-size: .6rem;
+        }
+        .modal-dialog {
+            padding-top: 37px;
+        }
     }
-    .hideComentarios {
-        display: none;
-    }
-    .claseMail {
-        font-size: .6rem;
-    }
-    .modal-dialog {
-        padding-top: 37px;
-    }
-}
