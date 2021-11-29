@@ -745,6 +745,9 @@
         div h2 {
             display: none;
         }
+        nav {
+            margin-bottom: 10%;
+        }
         .containerComentarios {
             display: none !important;
         }
@@ -782,7 +785,7 @@
         .listasMenu {
             width: 100%;
             justify-content: space-evenly;
-            margin-left: 0%;
+            margin-left: 0;
             text-decoration: none !important;
         }
         ol,
@@ -803,8 +806,8 @@
         }
         .textoCentral {
             text-align: justify;
-            margin-left: 15%;
-            margin-right: 15%;
+            margin-left: 0%;
+            margin-right: 0%;
             font-size: 15px;
         }
         .logo {
@@ -827,26 +830,29 @@
             padding-top: 0;
         }
         /* menu pescados*/
+        .menuTitulos h3 {
+            font-size: 35px;
+        }
         .containerPescados {
             padding-top: unset;
         }
         .menuPescados {
             display: flow-root;
-            margin: 0 37%;
+            margin: 0 0;
         }
         .menuPescados h3 {
             margin: 0;
-            font-size: 18px;
+            font-size: 25px;
         }
         .menuPescados p {
-            font-size: 11px;
+            font-size: 21px;
             font-style: italic;
         }
         .cajaPescado1 {
             grid-area: uno;
             padding-bottom: 30px;
-            margin-right: 35%;
-            width: 45%;
+            margin-right: -25%;
+            width: 105%;
             margin-bottom: 10%;
         }
         .cajaPescado2 {
@@ -855,7 +861,7 @@
             font-size: 15px;
             padding-bottom: 30px;
             margin-right: 35%;
-            width: 45%;
+            width: 100%;
             margin-bottom: 10%;
         }
         .cajaPescado3 {
@@ -863,8 +869,8 @@
             color: white;
             font-size: 15px;
             padding-bottom: 15px;
-            margin-right: 35%;
-            width: 45%;
+            margin-left: -5%;
+            width: 103%;
         }
         .texto {
             text-overflow: clip;
@@ -881,33 +887,56 @@
         .containerPostres {
             padding-top: 0%;
             margin-top: 0%;
+            margin-right: 0%;
         }
         .menuPostres h3 {
             margin: 0;
-            font-size: 18px;
+            font-size: 25px;
         }
         .menuPostres p {
-            font-size: 11px;
+            font-size: 21px;
             font-style: italic
         }
         .menuPostres {
             display: flow-root;
-            margin: 0 37%;
+            margin: 0 0;
+            padding-right: 0%;
         }
         .postre1 {
-            width: 45%;
+            width: 100%;
             margin-top: 70px;
-            font-size: 15px;
         }
         .postre2 {
-            width: 45%;
+            width: 100%;
             margin-top: 70px;
-            font-size: 15px;
         }
         .postre3 {
-            width: 45%;
+            width: 100%;
             margin-top: 70px;
-            font-size: 15px;
+            padding-left: 0%;
+        }
+        .grillaPicada {
+            width: 100%;
+            margin: auto;
+            display: flow-root;
+        }
+        .picada1 {
+            grid-area: uno;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10%;
+        }
+        .picada2 {
+            grid-area: uno;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10%;
+        }
+        .picada3 {
+            grid-area: uno;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10%;
         }
         .row {
             column-count: 1;
@@ -961,11 +990,11 @@
             font-family: 'Open Sans', sans-serif;
         }
         .menuTitulos {
-            font-size: 15px;
+            font-size: 31px;
             padding-left: auto;
             padding-right: auto;
             padding-left: 10%;
-            margin-top: 5%;
+            margin-top: -6%;
             margin-bottom: 5%;
         }
         .eventoVideos {
@@ -1003,9 +1032,6 @@
         }
         .informacionUbucacion {
             color: white;
-        }
-        .containerPostres {
-            margin-right: 0%;
         }
         div div div p {
             font-size: .9rem;
@@ -1061,10 +1087,10 @@
             padding-top: 20%;
         }
         .sectionMenu {
-            margin: 1% 1%;
+            margin-left: 0%;
             column-count: 3;
             text-align: justify center;
-            width: 98%;
+            width: 100%;
             background-color: grey;
             color: black;
             list-style: none;
@@ -1078,7 +1104,16 @@
             text-decoration: none !important;
             display: grid;
         }
-        ul listasMenu {
+        .subMenu {
+            position: absolute;
+            right: -37px;
+            list-style: none;
+            border-top-right-radius: 24px;
+        }
+        img[dimensiones] {
+            width: 19%;
+        }
+        ul .listasMenu {
             width: 100%;
         }
         .subMenu li {
@@ -1136,10 +1171,11 @@
         /* menu pescados*/
         .containerPescados {
             padding-top: unset;
+            margin-left: -14%;
         }
         .menuPescados {
             display: flow-root;
-            margin: 0 20%;
+            margin: 0 7%;
         }
         .menuPescados h3 {
             margin: 0;
@@ -1164,6 +1200,7 @@
             margin-right: 35%;
             width: 110%;
             margin-bottom: 10%;
+            margin-left: -1%;
         }
         .cajaPescado3 {
             grid-area: tres;
@@ -1172,6 +1209,7 @@
             padding-bottom: 15px;
             margin-right: 35%;
             width: 110%;
+            margin-left: -5%;
         }
         .texto {
             text-overflow: clip;
@@ -1202,22 +1240,25 @@
         }
         .menuPostres {
             display: flow-root;
-            margin: 0 20%;
+            margin: 0 3%;
         }
         .postre1 {
-            width: 110%;
+            width: 128%;
             margin-top: 70px;
             font-size: 15px;
+            margin-left: -12%;
         }
         .postre2 {
-            width: 110%;
+            width: 123%;
             margin-top: 70px;
             font-size: 15px;
+            margin-left: -12%;
         }
         .postre3 {
-            width: 110%;
+            width: 128%;
             margin-top: 70px;
             font-size: 15px;
+            margin-left: -17%;
         }
         .centrarGaleriatexto {
             margin-right: auto;
@@ -1242,23 +1283,41 @@
             padding-top: 20px;
             font-family: 'Open Sans', sans-serif;
             font-size: 65%;
+            width: 104%;
         }
         .footer p {
             font-size: 100%;
         }
         .menuTitulos {
-            font-size: 3%;
+            font-size: 150%;
             padding-left: auto;
             padding-right: auto;
             padding-left: 10%;
             margin-top: 5%;
             margin-bottom: 5%;
         }
+        .grillaPicada {
+            display: flow-root;
+        }
         .eventoTexto {
             text-align: center;
             font-size: 74%;
             padding-left: 26%;
             padding-right: 0%;
+        }
+        .picada1 {
+            width: 137%;
+            margin-left: -34%;
+        }
+        .picada2 {
+            width: 138%;
+            margin-left: -17%;
+            margin-top: 10%;
+        }
+        .picada3 {
+            width: 138%;
+            margin-left: 0%;
+            margin-top: 10%;
         }
         .eventoTexto h3 {
             font-size: 130%;
